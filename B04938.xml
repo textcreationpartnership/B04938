@@ -1,0 +1,907 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A poem on the test dedicated to His Royal Highnes the Duke of Albanie.</title>
+            <author>Paterson, Ninian, d. 1688.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1683</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 113 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B04938</idno>
+            <idno type="STC">Wing P701A</idno>
+            <idno type="STC">ESTC R181526</idno>
+            <idno type="EEBO-CITATION">51784600</idno>
+            <idno type="OCLC">ocm 51784600</idno>
+            <idno type="VID">175009</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B04938)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 175009)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2709:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A poem on the test dedicated to His Royal Highnes the Duke of Albanie.</title>
+                  <author>Paterson, Ninian, d. 1688.</author>
+               </titleStmt>
+               <extent>[2], 38+ p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed [s.n.],</publisher>
+                  <pubPlace>Edinburgh, :</pubPlace>
+                  <date>in the year, Anno MDC. LXXXIII. [1683]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication to James II on verso, signed by Ninian Paterson.</note>
+                  <note>Imperfect: wanting all after p. 38.</note>
+                  <note>Reproduction of original in: National Library of Scotland</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>James --  II, --  King of England, 1633-1701 --  Poetry.</term>
+               <term>Prerogative, Royal --  Great Britain --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-11</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2010-11</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:175009:1" rendition="simple:additions"/>
+            <p>A POEM ON THE TEST Dedicated TO HIS ROYAL HIGHNES The Duke of ALBANIE.</p>
+            <q>Principis eſt virtus maxima noſſe ſuos.
+<bibl>
+                  <hi>Mart.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>EDINB<g ref="char:V">Ʋ</g>RGH,</hi> Printed in the Year, <hi>Anno</hi> MDC.LXXXIII.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:175009:2"/>
+            <head>TO HIS ROYAL HIGHNES The Duke of ALBANIE.</head>
+            <l>ADmit <hi>Great Sir,</hi> (in earneſt or in ſport)</l>
+            <l>A trembling Stranger to your Princely Court:</l>
+            <l>Since ye for <hi>Meekneſs</hi> are the ages wonder</l>
+            <l>In time of Peace; in time of Warr a Thunder.</l>
+            <l>Its He who glories that he firſt did frame</l>
+            <l>
+               <hi>True-Majeſty, JAMES STEWARTS Anagram;</hi>
+            </l>
+            <l>Which for your <hi>Anagram</hi> ſhall ever paſs,</l>
+            <l>As wanting the dull omen of the as.</l>
+            <l>So Heaven from malice guard the Royal Throne,</l>
+            <l>As ye protect your</l>
+            <closer>
+               <signed>NINIAN PATERSON.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb n="1" facs="tcp:175009:2"/>
+            <head>
+               <hi>THE TEST.</hi> A Poem preſented to His Royal Highneſs: wherein is concluſively aſſerted the <hi>Kings Prerogative Royal,</hi> and <hi>Juriſdiction in Maters Eccleſiaſtical,</hi> with the unlawful<g ref="char:EOLhyphen"/>neſs of reſiſtance.</head>
+            <lg n="1">
+               <head>1.</head>
+               <l>
+                  <seg rend="decorInit">B</seg>Egon heart cutting cares, I ſcorn to be</l>
+               <l>Unfortunate, ſpite of adverſitie.</l>
+               <l>I he who all my life was bruiſ'd and broke,</l>
+               <l>On Fortunes wheel being rack'd from ſpoke to ſpoke;</l>
+               <l>Born under unpropitious Starrs, which throwes,</l>
+               <l>As I grow old, new loads of growing woes:</l>
+               <l>Now theſe misfortunes, which did me annoy</l>
+               <l>Are ſwalowed up in ane exceſſive joy.</l>
+               <l>I ſurfeit with delights! can Hell preſent,</l>
+               <l>What after this, I darr call diſcontent?</l>
+               <l>Nay now its a puz'ling doubt, whither I be</l>
+               <pb facs="tcp:175009:3"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="1" facs="tcp:175009:3"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <l>
+                  <pb n="2" facs="tcp:175009:4"/>Compoſ'd of Joy, or Joy compoſ'd of me.</l>
+               <l>
+                  <hi>What unexpected Treaſure makes thee bleſt,</hi>
+               </l>
+               <l>If any ask? I anſwer, it's the <hi>Test:</hi>
+               </l>
+               <l>Which if well underſtood, for plentie, peace;</l>
+               <l>
+                  <hi>Scotland</hi> might write <hi>Nil ultra,</hi> to her Bliſs.</l>
+               <l>The <hi>Teſt</hi> a ſtore, wherewith enricht, the <hi>Weſt</hi>
+               </l>
+               <l>Needs not envy the bowels of the <hi>Eaſt,</hi>
+               </l>
+               <l>By this the drowſie Sword ſhall ſnorting ly,</l>
+               <l>And JANUS of his gate ſhall loſe the key.</l>
+               <l>And we in ſhade of heavenly peaces wing</l>
+               <l>Shall ſerve our GOD, and dearly love our <hi>King.</hi>
+               </l>
+            </lg>
+            <lg n="2">
+               <head>2.</head>
+               <l>GOD Bliſs your Royal Highneſs, but I vow,</l>
+               <l>Never ſo <hi>Royal,</hi> nor ſo <hi>high</hi> till now.</l>
+               <l>No, when thy head being girt with verdant bayes,</l>
+               <l>And every one ſang <hi>Jo</hi> to thy praiſe;</l>
+               <l>Laden with Spoiles, and honours thou advanc't,</l>
+               <l>While victorie upon thy enſignes danc't.</l>
+               <l>Care of <hi>Religion</hi> is the glorious Gemm,</l>
+               <l>That Crowns the <hi>Crown,</hi> exaltes the DIADEM;</l>
+               <l>And makes your <hi>Highneſs,</hi> highlie, <hi>Royal,</hi> ſince</l>
+               <l>The Prince of virtues moſt becomes a <hi>Prince.</hi>
+               </l>
+               <l>Vile Ink a common tetter may command,</l>
+               <l>But the <hi>Kings evill</hi> requires a <hi>Royal</hi> hand:</l>
+               <l>So all the Godly <hi>Jewiſh</hi> Kings of old</l>
+               <l>By ſuch a <hi>Teſt</hi> from droſs did purge their Gold.</l>
+               <l>This is like JEHU'S <hi>Teſt:</hi> to try withall,</l>
+               <l>Who is for GOD, or who adhears to <hi>Baal.</hi>
+               </l>
+               <l>
+                  <hi>Conſtantius</hi> Syre to <hi>Conſtantin</hi> the beſt</l>
+               <l>Did purge his Court by ſuch ane other <hi>Teſt.</hi>
+               </l>
+               <l>It's this the <hi>Spaniſh</hi> annals do imput</l>
+               <l>
+                  <pb n="3" facs="tcp:175009:4"/>As a chief Honour to their <hi>Siſibut.</hi>
+               </l>
+               <l>
+                  <hi>French</hi> DAGOBERT did eternize the ſtorie,</l>
+               <l>And <hi>Legend</hi> of his life, by ſuch a glorie.</l>
+               <l>This <hi>Teſt</hi> will expiate our enormous crimes</l>
+               <l>Committed in our bloody Rebel-times.</l>
+               <l>This <hi>
+                     <g ref="char:V">Ʋ</g>nions Trophie</hi> will for ever blot</l>
+               <l>The Leprous ſcandal of a rebell-Scot;</l>
+               <l>And make the Worlds <hi>Amphitheater</hi> ſee,</l>
+               <l>A <hi>Scot</hi> and <hi>Loyal</hi> are <hi>Identitie:</hi>
+               </l>
+               <l>And make our bright renown to ſpread as farr,</l>
+               <l>As is the <hi>Artick</hi> from th' <hi>Antartick</hi> Starr.</l>
+               <l>
+                  <hi>Lucretia's</hi> chaſtitie no fame had gain'd,</l>
+               <l>Had ſhe not with that loathſome rapt been ſtain'd.</l>
+               <l>
+                  <hi>Lucrece</hi> the glory of her Sex! O rare,</l>
+               <l>Who did her honour to her life preferr!</l>
+               <l>
+                  <hi>Mirror</hi> of Matrons, who did death indure</l>
+               <l>Rather then (thô by force) be thought a whoore.</l>
+               <l>The <hi>Teſt's</hi> the <hi>touchstone, badge</hi> and <hi>livery</hi>
+               </l>
+               <l>And <hi>Cognizance</hi> of faithful Loyalty.</l>
+               <l>It is the <hi>fan</hi> will purge this ſoultrie Iſle,</l>
+               <l>And ſeparat the precious from the vile.</l>
+               <l>And this will bind us to true Libertie,</l>
+               <l>Like Sones and Daughters of one Familie,</l>
+               <l>And Servants of one Lord this bond of Peace</l>
+               <l>Will artes and plentie, and our Joyes increaſe.</l>
+               <l>Nay it will here Commence the Joys above,</l>
+               <l>Make us all happie, and each other love:</l>
+               <l>Make us amongſt our ſelves Compoſe all Jarrs,</l>
+               <l>And on the common foe diſcharge our Warrs.</l>
+            </lg>
+            <lg n="3">
+               <pb n="4" facs="tcp:175009:5"/>
+               <head>III.</head>
+               <l>Our Kirks the Sacred <hi>Argo, Noahs</hi> Boat</l>
+               <l>Can ride in tempeſts and keep ſtill a float;</l>
+               <l>And this true Goſpel <hi>Test,</hi> it is her yard,</l>
+               <l>Her Sail, her Compaſs, Cable, and her Card.</l>
+               <l>That no tempeſtous Cataracts can fall</l>
+               <l>Upon theſe lands ſhall boaſt their Funeral.</l>
+               <l>This TEST will waird of all rude laick hands</l>
+               <l>From <hi>Kirk</hi> or <hi>King,</hi> GODS beauty and bands:</l>
+               <l>That ſo our LORD he never may complain</l>
+               <l>Betwixt two Thieves he's Crucified again.</l>
+               <l>This is the <hi>Iſthmus</hi> that our Kirk will ſave</l>
+               <l>Betwixt the <hi>Egean</hi> and the <hi>Ionian</hi> wave.</l>
+               <l>Touch ye not my anointed, and moleſt</l>
+               <l>No more my <hi>Sacred Prophets;</hi> that's the TEST.</l>
+               <l>By this the Clergie is ſecured now,</l>
+               <l>In ancient reverence and revenue<g ref="char:punc">▪</g>
+               </l>
+               <l>One faith, one Lord, one Baptiſme now ſhall be;</l>
+               <l>Farewell <hi>Geneva, Rome</hi> farewell to thee,</l>
+               <l>Fare well on one hand, bloody Catholick Leagues,</l>
+               <l>And on the other, wild <hi>Geneva</hi> gigg's:</l>
+               <l>For after this will never honeſt man,</l>
+               <l>Or turn a Papiſt, or a Puritan.</l>
+               <l>Burſt envy, burſt, for now its be thy task,</l>
+               <l>To ſee reſplendent truth without a Maſsk.</l>
+            </lg>
+            <lg n="4">
+               <head>IV.</head>
+               <l>And yet ſome Owles cannot abide this Sun,</l>
+               <l>They ſcorn not to defend, what they have done:</l>
+               <l>And on this TEST they do more dumpiſh look,</l>
+               <l>Then <hi>Engliſh</hi> Panals that's denyed their Book.</l>
+               <l>
+                  <pb n="5" facs="tcp:175009:5"/>And this doeth cheifly their blind conſcience grudge,</l>
+               <l>To make the <hi>King</hi> in all Church maters Judge;</l>
+               <l>Although Saint <hi>Paul</hi> this ſolemn rule did make,</l>
+               <l>We muſt be Subject all for conſcience ſake.</l>
+               <l>It's ignorance, or elſe audacious nonſence,</l>
+               <l>That Princes hes no power of Subjects conſcience:</l>
+               <l>For, as Religion makes us calme and mild;</l>
+               <l>So Superſtition, Frantick mad and wild.</l>
+               <l>And if ſuch riſe in Armes upon pretence</l>
+               <l>Of a convulſion in their conſcience;</l>
+               <l>If that the King may not controul their doing,</l>
+               <l>He and his Subjects both involv'd in ruine:</l>
+               <l>And on the other hand, if that he may</l>
+               <l>Then of their conſcience ſure he bears the ſway.</l>
+               <l>Or all things ſacred, and all things that's civill</l>
+               <l>Shall be o're thrown by every furious Devil.</l>
+               <l>If they can make a ſhift for to baptize</l>
+               <l>Their furie Zeal, they may do what they pleaſe:</l>
+               <l>So each Opinion makes a Sect from hence,</l>
+               <l>And every <hi>Sect</hi> a faction doeth commence,</l>
+               <l>And every <hi>Faction</hi> for a warr will boad,</l>
+               <l>And every <hi>Warr</hi> will be the cauſe of GOD,</l>
+               <l>And every <hi>Cauſe</hi> of GOD will grow ſo high</l>
+               <l>To out-face, and trample on Authority;</l>
+               <l>So while by hairbrain'd follie wee'r beguil'd,</l>
+               <l>Religion is debauch'd and peace exil'd.</l>
+               <l>Theſe were the giddie methods, which of late</l>
+               <l>Confounded and deſtroyed both Church and State;</l>
+               <l>And all that theſe <hi>Fanaticks</hi> now deſire,</l>
+               <l>Is but the ſmook of that unquenched fire.</l>
+               <l>All they contend and fight for, is to bring</l>
+               <l>
+                  <pb n="6" facs="tcp:175009:6"/>Themſelves or equal, or above the King.</l>
+               <l>But grant ane other power as great as he,</l>
+               <l>Then likewayes grant that two Supreams may be;</l>
+               <l>And ſo the People may obliedged ſtand</l>
+               <l>Unto a contradictorie command,</l>
+               <l>Exemplified we ſaw this wry noſ'd quirk,</l>
+               <l>In late King <hi>James</hi> and his opprobrious Kirk:</l>
+               <l>Therefore ther's no controlling of the Powers,</l>
+               <l>Or each Supream will have Superiours.</l>
+            </lg>
+            <lg n="5">
+               <head>V.</head>
+               <l>Firſt oeconomick was the Government,</l>
+               <l>And from a familie drew its deſcent;</l>
+               <l>Which families amplification</l>
+               <l>Became a City, Province, Nation:</l>
+               <l>And from his Loyns, Becauſe the race did ſpring,</l>
+               <l>The Father of the Familie was King,</l>
+               <l>And Prieſt too, in one Perſon, which at death</l>
+               <l>Joyntlie to his firſt borne he did bequeath.</l>
+               <l>So for two thouſand years the World did ſee,</l>
+               <l>The Prieſt-hood joyn'd with Soveraignty.</l>
+               <l>So, <hi>Numa,</hi> ſo, <hi>Augustus</hi> King and Prieſt,</l>
+               <l>So, all the Kings of <hi>Malabar,</hi> in th' Eaſt:</l>
+               <l>Which tho, that God among the Jews divided,</l>
+               <l>Yet were all cauſes by their Kings decided,</l>
+               <l>Which did concerne the Church not State alone,</l>
+               <l>By <hi>Ezekia, David, Solomon,</hi>
+               </l>
+               <l>
+                  <hi>Jehu, Jehoſophat, Joſia</hi> holy,</l>
+               <l>Whoſe power in Church was Legiſlative whollie.</l>
+               <l>To ſhew that this belongs in each reſpect</l>
+               <l>Unto the ancient <hi>Miſhpat-Hamelek.</hi>
+               </l>
+               <l>
+                  <hi>Melchiſedeck</hi> expreſly is nam'd King,</l>
+               <l>
+                  <pb n="7" facs="tcp:175009:6"/>Before he is cal'd Prieſt; which very thing</l>
+               <l>The <hi>Gallicks</hi> againſt <hi>Boniface</hi> do ſhow,</l>
+               <l>His Crown he to the Prieſt-hood did not owe.</l>
+               <l>
+                  <hi>Moſes,</hi> King in <hi>Ieſurum</hi> too, their type</l>
+               <l>The Trumpets, and the Tables both did keep:</l>
+               <l>And what to him pertain'd GOD doeth allowe</l>
+               <l>To every other Monarch as his due.</l>
+               <l>This argument <hi>Euſebius</hi> doeth repeat</l>
+               <l>From <hi>Moſes</hi> unto <hi>Conſtantin</hi> the great,</l>
+               <l>As conſequent, about the convocation</l>
+               <l>Of the <hi>Nice</hi> Council, and its Confirmation.</l>
+               <l>The Law of Ceremonies as beheſts,</l>
+               <l>
+                  <hi>Moſes,</hi> not <hi>Aaron,</hi> gave unto the Prieſts</l>
+               <l>Long after that; to ſhew it was in force,</l>
+               <l>
+                  <hi>David</hi> did conſtitute each Prieſt in's courſe;</l>
+               <l>And <hi>Solomon,</hi> that was both wiſe and juſt,</l>
+               <l>Did <hi>Abiathar</hi> from the Prieſt-hood thruſt.</l>
+               <l>This pow'r continued, till the <hi>Virgins</hi> birth,</l>
+               <l>When GOD was ſeen in fleſh upon the Earth;</l>
+               <l>Of which authority he nee'r bereft it:</l>
+               <l>But as he found the Government he left it.</l>
+               <l>And ſo the Eccleſiaſtick Juriſdiction</l>
+               <l>Of Princes is by nature, not by fiction,</l>
+               <l>Founded on reaſon, practice, and conſent,</l>
+               <l>Unalterable, as the Firmament;</l>
+               <l>And this our <hi>Saviour</hi> did ſuppoſe to be</l>
+               <l>Ane uncontrolable, and firme decree:</l>
+               <l>Wherefore St. <hi>Paul</hi> to <hi>Caeſar</hi> makes appeal,</l>
+               <l>To ſhew this Iuriſdiction cannot faile.</l>
+               <l>Thus Kings doe reign as Scriptures doe confeſs,</l>
+               <l>As for our <hi>Honestie,</hi> ſo <hi>Godlineſs.</hi>
+               </l>
+               <l>
+                  <pb n="8" facs="tcp:175009:7"/>If it be ſaid why did our Saviour</l>
+               <l>Bequeath not by his teſtament ſuch a power?</l>
+               <l>Our Saviour lived under theſe ye know,</l>
+               <l>That did imploy their power to overthrow</l>
+               <l>His Church and followers, and therefore, why</l>
+               <l>Should he give them Commiſſion to deſtroy?</l>
+               <l>He only to the ſubject did injoyn</l>
+               <l>Meekneſs and Patience and Subjection:</l>
+               <l>But in no-wayes, either in weight or meaſure</l>
+               <l>Determines he the rights belong to <hi>Caeſar;</hi>
+               </l>
+               <l>Only according to <hi>Ius Gentium,</hi>
+               </l>
+               <l>Render to <hi>Caeſar,</hi> what is due to him.</l>
+               <l>The Juriſdiction of the Magiſtrate</l>
+               <l>In Church affaires, bears a far higher date</l>
+               <l>Then our bliſt <hi>Saviours</hi> birth. Coercive power</l>
+               <l>By nature lodgeth in the Governour.</l>
+               <l>Yea Chriſt and his Apoſtles acted then</l>
+               <l>In the Capacitie of private men;</l>
+               <l>And left it only in the <hi>Soveraignes</hi> hand</l>
+               <l>(Which he forbad all ſubjects) to command:</l>
+               <l>And therefore at his very dying hour,</l>
+               <l>He did reject all Secularie power.</l>
+               <l>But when the <hi>Kings</hi> grew <hi>Chriſtian, Conſtantine,</hi>
+               </l>
+               <l>Did act in that capacitie again;</l>
+               <l>Which he with faith and Courage too did ſhew,</l>
+               <l>When he the Coventickles overthrew</l>
+               <l>Of the Curſt <hi>Donatists,</hi> and ſtoutly he</l>
+               <l>Diſpell'd the miſts of <hi>Arian</hi> hereſie.</l>
+               <l>Nor was he ſingular in theſe, each one</l>
+               <l>Of his Succeſſors that ſame way have gone:</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>the whole bodie of the civil Lawes</l>
+               <l>
+                  <pb n="9" facs="tcp:175009:7"/>Do ſhew anent th'Eccleſiaſtick cauſe.</l>
+               <l>And ſhould a <hi>Monarch,</hi> (would ye think it meet)</l>
+               <l>When he turns <hi>Chriſtian,</hi> his power abate?</l>
+               <l>Nay word by word, the Apoſtle he averrs,</l>
+               <l>Our <hi>Kings</hi> as <hi>Kings, Liturgick</hi> Officers.</l>
+               <l>Prince of the Kings of th' Earth, our <hi>Saviour</hi> is:</l>
+               <l>Then ſure by right all <hi>Chriſtian Kings</hi> are his;</l>
+               <l>This was in force until St. <hi>Peters</hi> chaire</l>
+               <l>Did ſleily rob this power from the Empire.</l>
+               <l>But at the Reformation we expreſt it,</l>
+               <l>In our Confeſſions the <hi>Pope</hi> unjuſtly wreſt it;</l>
+               <l>And yet there is a Spiritual exerciſe</l>
+               <l>Of preaching, Sacraments, and of the Keys,</l>
+               <l>Which is peculiar to the Prieſt alone:</l>
+               <l>
+                  <hi>Saul</hi> that did this miſtake, he loſt his throne;</l>
+               <l>All which who darr deny, he needs no more</l>
+               <l>Of arguments, But O what hellebore?</l>
+            </lg>
+            <lg n="6">
+               <head>VI.</head>
+               <l>
+                  <hi>May</hi> not Heretical, <hi>Erronious,</hi>
+               </l>
+               <l>Oppreſſing Princes and Idolatrous</l>
+               <l>Reſiſted be? or otherwayes Religion</l>
+               <l>Shall go to wrack, and all ſhall be undone.</l>
+               <l>Yes; if for wiſer men ye needs muſt paſs</l>
+               <l>Then <hi>Moſes,</hi> (or th' inſpired <hi>Prophets</hi>) was:</l>
+               <l>Or if your ſelves more holy men ye call</l>
+               <l>Then <hi>Chriſt,</hi> or yet St. <hi>Peter,</hi> or St. <hi>Paul.</hi>
+               </l>
+               <l>Six hundred thouſand, and four thouſand more</l>
+               <l>Under their Chiftain <hi>Moſes,</hi> weapons bore.</l>
+               <l>All men of valour on <hi>Nil's</hi> fertile plaines,</l>
+               <l>Whoſe Inundation ſerves in ſtead of raines;</l>
+               <l>Yet nothing's done without expreſs conſent</l>
+               <l>
+                  <pb n="10" facs="tcp:175009:8"/>Of <hi>Pharoah,</hi> then who had the Government,</l>
+               <l>Tho tyrant and oppreſſor both. And ſo</l>
+               <l>
+                  <hi>Shadrach,</hi> and <hi>Meſach</hi> and <hi>Abednego</hi>
+               </l>
+               <l>Were thrown in flamms, yet not a word we hear</l>
+               <l>Of ſtirring people to take ſword or ſpeir.</l>
+               <l>And <hi>Daniel</hi> caſt into the Lyons den,</l>
+               <l>Yet praying for the King <hi>Darius</hi> then.</l>
+               <l>Yea with a miracles expence Our LORD</l>
+               <l>Did tribut to <hi>Tiberius</hi> afford.</l>
+               <l>To <hi>Herod, Pilat,</hi> and the <hi>Sanhedrim</hi>
+               </l>
+               <l>He did ſubmit, although they ſentenc't him,</l>
+               <l>Unto ane unjuſt, and accurſed death.</l>
+               <l>His Doctrine too did meek ſubmiſſion breath,</l>
+               <l>Give unto <hi>Caeſar,</hi> what is <hi>Caeſars</hi> due,</l>
+               <l>And pray for thoſe hes perſecuted you.</l>
+               <l>And <hi>Pilats</hi> power he from above confeſt,<note place="margin">
+                     <hi>Iohn</hi> 19:11.</note>
+               </l>
+               <l>And Challeng'd <hi>Peter</hi> for his furious haſt,</l>
+               <l>Charging his Champion with that dreadful word,</l>
+               <l>
+                  <hi>Who takes the Sword, ſhall Periſh with the Sword.</hi>
+               </l>
+               <l>And for the Apoſtles, none amongſt them all</l>
+               <l>Taught to reſiſt; St. <hi>Peter,</hi> or St. <hi>Paul.</hi>
+               </l>
+               <l>St. <hi>Peter</hi> ſayes directly contrare it,</l>
+               <l>
+                  <hi>To every ordinance of man ſubmit.</hi>
+               </l>
+               <l>
+                  <hi>Theſe that diſpiſe dominion, or defame</hi>
+               </l>
+               <l>
+                  <hi>Authority; Iudgement will follow them.</hi>
+               </l>
+               <l>And good St. <hi>Paul, obey them that you rule,</hi>
+               </l>
+               <l>
+                  <hi>For Conſcience ſake be Subject every Soul.</hi>
+               </l>
+               <l>
+                  <hi>Reſiſters on themſelves Damnation bring.</hi>
+               </l>
+               <l>Ane <hi>Item</hi> ſad to Traitors to the King.</l>
+               <l>This Doctrine with their blood they ſealing Died;</l>
+               <l>
+                  <hi>Paul</hi> was beheaded, <hi>Peter</hi> Crucified.</l>
+               <l>
+                  <pb n="11" facs="tcp:175009:8"/>In <hi>Julian</hi> the vile Apoſtats reign</l>
+               <l>The Chriſtians only tears for armes did bring.</l>
+               <l>They were not able to reſiſt they'l ſay.</l>
+               <l>
+                  <hi>Tertullian,</hi> tells in his Apologie,</l>
+               <l>The <hi>Chriſtians</hi> then, they were in number more</l>
+               <l>Then drops of raine or ſands upon the Shore:</l>
+               <l>Cities and Countreys both, they fill in ſwarmes,</l>
+               <l>They every where abound in peace and armes;</l>
+               <l>Yet they Submiſſion unto armes preferr,</l>
+               <l>Under a Tyrant and Idolater.</l>
+               <l>Six thouſand and ſix hundred ſixty ſix</l>
+               <l>In the <hi>Thebean</hi> Legion, never ſticks</l>
+               <l>For to ſubmit to Decimation,</l>
+               <l>Of <hi>Maximinian</hi> for Religion.</l>
+               <l>Then, Traitors is't a ſport to you or laughter,</l>
+               <l>Firſt to be hanged here, then damn'd hereafter.</l>
+            </lg>
+            <lg n="7">
+               <head>VII.</head>
+               <l>Courage Great <hi>Prince,</hi> and make rogues ſtand in awe,</l>
+               <l>It's Execution that's the Life of Law;</l>
+               <l>Wherefore hes truth it ſelf call'd <hi>Princes</hi> GODS?</l>
+               <l>But that they'r Maſters of rewards and rods,</l>
+               <l>But that they can with Majeſty command,</l>
+               <l>Or break in pieces who doe them withſtand.</l>
+               <l>Princes do ſhew how they deſerve their Crowns</l>
+               <l>By gracious favours, or by aw-full frownes.</l>
+               <l>Courage and Wiſdom both a Prince maintaines.</l>
+               <l>Undaunton'd valour muſt have breaſt and braines.</l>
+               <l>Your Highneſs ſtill makes good your <hi>Saviours</hi> words,</l>
+               <l>
+                  <hi>Theſe that are mighty, are call'd bounteous Lords.</hi>
+               </l>
+               <l>
+                  <hi>Patern</hi> of vertues <hi>Patron</hi> of all artes,</l>
+               <l>Who conquer'd Armies, now thou Conquers hearts:</l>
+               <l>
+                  <pb n="12" facs="tcp:175009:9"/>It will deſerve what Noblie is begun</l>
+               <l>Immortal fame and admiration.</l>
+               <l>Damn'd <hi>Donatiſts,</hi> it was their <hi>Teſſera,</hi>
+               </l>
+               <l>
+                  <hi>Quid Imperatori cum Eccleſiâ.</hi>
+               </l>
+               <l>And if our <hi>Donatiſts</hi> that ſame ſhould plead,</l>
+               <l>Shew them, Great <hi>Conſtantin</hi> yet is not dead,</l>
+               <l>And make our tottering Church now ſteddy ſtand</l>
+               <l>With <hi>Papiſt</hi> there, <hi>Fanatick</hi> on this hand,</l>
+               <l>The Reprobats of Loyalty and Grace,</l>
+               <l>The <hi>Schilla</hi> and <hi>Charibdis</hi> of our Peace.</l>
+               <l>Exile them <hi>Sir,</hi> and let it be their doom</l>
+               <l>To be confin'd to <hi>Germany</hi> and <hi>Rome.</hi>
+               </l>
+               <l>
+                  <hi>Theudas,</hi> or <hi>Iudas,</hi> if they riſe in Armes,</l>
+               <l>Diſperſe them, <hi>Sir,</hi> and keep us from their harmes;</l>
+               <l>And make both Hills and Bridges exil'd be,</l>
+               <l>The confines of this ages memorie.</l>
+               <l>Make blinded <hi>Tobits</hi> too Apocriphal,</l>
+               <l>And baniſh them that do not know at all</l>
+               <l>Mens fleſh by bread, nor yet what's in the cup,</l>
+               <l>Its dangerous with them to dine or ſup:</l>
+               <l>For if their hand miſtake or varie, then</l>
+               <l>They'r <hi>Polyphemus,</hi> we <hi>
+                     <g ref="char:V">Ʋ</g>lyſſes</hi> men.</l>
+               <l>And when we are devoured, they will ſwear</l>
+               <l>They ſaw us not, but we did <hi>meat</hi> appear.</l>
+               <l>When we whom <hi>Neptune's</hi> Trident did divide,</l>
+               <l>And ſet a part from all the World beſide,</l>
+               <l>Have by thy arts this Glorious Garland won,</l>
+               <l>In faith and <hi>Love united Albion;</hi>
+               </l>
+               <l>Then on the head of thy triumphant <hi>Teſt,</hi>
+               </l>
+               <l>Th' Eternal conqueſt of all trouble reſt:</l>
+               <l>For it will teach (as GOD doeth) every Soul;</l>
+               <l>
+                  <pb n="13" facs="tcp:175009:9"/>What Kings commands, no Subjects may controul,</l>
+               <l>And in all after ages Chriſt'ned be</l>
+               <l>Ane <hi>Altar</hi> raiſ'd to Eternal Loyalty.</l>
+            </lg>
+            <lg>
+               <l>Carmina proveniunt animo deducta Sereno,</l>
+               <l>Me, mare, me venti, me fera jactat hyems</l>
+            </lg>
+            <lg>
+               <l>Verſes run low and dead when men are Croſt,</l>
+               <l>I am with Seas, and Windes, and Tempeſts toſt.</l>
+            </lg>
+         </div>
+         <div type="annotations">
+            <head>
+               <hi>ANNOTATIONS</hi> On the preceeding <hi>POEM.</hi>
+            </head>
+            <div n="1" type="chapter">
+               <head>
+                  <hi>CAP. I.</hi> Of the name and nature of the <hi>Teſt,</hi> and the ele<g ref="char:EOLhyphen"/>gant alluſions made thereto, in the Scrip<g ref="char:EOLhyphen"/>tures and other Authors.</head>
+               <p>
+                  <seg rend="decorInit">H</seg>Aving obſerved in <hi>Goldmans Engliſh</hi> Dictionarie the word <hi>Teſt,</hi> rende<g ref="char:EOLhyphen"/>red <hi>fornax ad probandum aurum,</hi> I preſently conjectured, it was ſome Inſtrument belonging to a Gold-ſmith, whereupon I addreſſed my ſelf to <hi>Iames Cockburn,</hi> a Perſon of great integrity, Judgement, and more then Ordinary both ingenuity and ingine in his calling, who both ſhewed me the <hi>Teſt</hi> and taught me the uſe of it. It is made up of the aſhes of calci<g ref="char:EOLhyphen"/>ned Bones, with an Iron Houp into which the aſhes are knead, and it put into the
+<pb n="14" facs="tcp:175009:10"/>
+fire, the Metall is layd on it to be tryed: what is Lead ſinkes into the <hi>Teſt,</hi> what is Braſſe or Tinne evaporats with the impetuous violence and force of the fire, while the Metall that remains on the <hi>Teſt,</hi> is both purged and perfited; ſo that the uſe of the <hi>Teſt</hi> is threefold, 1. to try and ſearch into the nature of the Metall to diſcern betwixt the Counterfit and the currant. And ſo ſecondly, to ſeparat the precious from the Vile. 3. To conſume that which is naughty, the baſe dregs and droſſe. According<g ref="char:EOLhyphen"/>ly <hi>probo</hi> in the Latine hes thes 3. ſignifications, <hi>probat qui tentat, probat qui approbat, probat qui demonſtrat argumentis.</hi> And in a ſenſe that comes more home to our pur<g ref="char:EOLhyphen"/>poſe, to diſcover and manifeſt the nature of a thing, as that in <hi>Ovid. Exitus acta pro<g ref="char:EOLhyphen"/>bat,</hi> and in that Chymicall ſenſe peculiar to the <hi>Teſt,</hi> I find the word <hi>dokimazo</hi> is taken in the Scriptures 1 <hi>Pet.</hi> 1:7. <hi>Gold tryed in the fire.</hi>
+               </p>
+               <p>From all which by an excellent Metaphor, it is tranſlated to be <hi>verbum fo<g ref="char:EOLhyphen"/>renſe &amp; Iuridicum,</hi> a Law term ſignifying that Tryal, whereby Magiſtrates exa<g ref="char:EOLhyphen"/>mine offenders, and particularly we find it applyed to the Tryall of Miniſters. 1 <hi>Tim.</hi> 3:10. Let them firſt be proved, <hi>quos examine praevio conſtat eſſe Idoneos,</hi> ſay'th <hi>Calvin</hi> on the place, or more excellently <hi>Hincmarus</hi> the Biſhop of <hi>Rhemes, Probentur primum, nam qui loco docti indoctum ordinat, facit Magiſtrum qui debet eſſe Diſcipulus, &amp; offert caecum Animal.</hi> So we read of Gods <hi>Teſt,</hi> 1 <hi>Theſſ.</hi> 2:4. God that trieth the Hearts <hi>Ier.</hi> 16:10. <hi>Act.</hi> 1:24. and of mans <hi>Teſt,</hi> 1 <hi>Theſſ.</hi> 5:21. prove all things, hold faſt that which is good. By man himſelf 2 Cor. 13:5. or others 2 <hi>Cor.</hi> 8:8.</p>
+               <p n="2">2. This Inſtrument by the Greekes is called <hi>Kaminos</hi> from <hi>Káio</hi> whence we have our word <hi>chimney.</hi> And its ordinarly rendred <hi>fornax,</hi> which by <hi>Martinius</hi> in his learned <hi>Lexicon Etymologicum</hi> is thus deſcribed, <hi>
+                     <g ref="char:V">Ʋ</g>ſurpatur</hi> ſayes he, <hi>pro loco cavo ferreis laminis concluſo, Fit etiam ex lateribus aut Teſtis.</hi> From which no doubt our word <hi>Teſt</hi> is derived. So the fining potes ſpoken of by <hi>Solomon, Prov.</hi> 17:3. and 27:21. being made of Earthen Veſſels, which properly are called <hi>Teſtae,</hi> to which the Pſalmiſt alludes 12. <hi>Pſal.</hi> 6. Silver-tryed in a furnace of Earth. Thus <hi>Iuvenal Sat.</hi> 3. <hi>Lin.</hi> 270. <hi>Tectis ſublimibus, unde cerebrum teſta ferit;</hi> on which <hi>Britannicus</hi> notes <hi>appellatione</hi> Teſtae <hi>intelligimus omnia fragmenta vaſorum fictilium, ut ſunt ſeriae, urceoli, urnae, tegulae &amp; id genus, &amp; ipſa etiam vaſa integra,</hi> ut illud, <hi>pictaeque incumbere Teſtae,</hi> which he cites from <hi>Sat.</hi> 15. whence by a very pro<g ref="char:EOLhyphen"/>per and unſtrained Metaphor, it ſignifies that Inſtrument, whereby faith and man<g ref="char:EOLhyphen"/>ners are tryed, to which <hi>Cicero</hi> elegantly alludes, <hi>Epiſt. Fam. Lib.</hi> 9. <hi>Epiſt.</hi> 15. <hi>Nam etſi non facile dijudicatur amor verus &amp; fictus niſi aliquod indicat ejuſmodi tem<g ref="char:EOLhyphen"/>pus, ut quaſi aurum igni, ſic benevolentia fidelis periculo aliquo p<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ſpici poſſit. Peri<g ref="char:EOLhyphen"/>culo, id eſt, diſcrimine, non experimento,</hi> as <hi>Bernardinus Rutilius</hi> there obſerves. So <hi>Ovid. Triſt. Lib.</hi> 1. <hi>Eleg.</hi> 4.</p>
+               <q>
+                  <l>Scilicet ut fulvum ſpectatur in ignibus aurum,</l>
+                  <l>Tempore ſic duro eſt inſpicienda fides.</l>
+               </q>
+               <p>
+                  <hi>Inſpicienda</hi> not <hi>experienda,</hi> as ſome Copies hes it: for it is both better Latine, and more elegantly relates to <hi>ſpectatur.</hi>
+               </p>
+               <q>
+                  <l>As force of Fire the Yellow Gold doth trie,</l>
+                  <l>So faith is known beſt by adverſitie.</l>
+               </q>
+               <p>
+                  <pb n="15" facs="tcp:175009:10"/>And <hi>Iſocrates ad Demonicum, too men gár chryſon en to puri dokimazetai,</hi> the Scrip<g ref="char:EOLhyphen"/>ture alſo in the ſame ſence uſes the word, <hi>Zach.</hi> 13:9. I will refine them as Silver, and try them as Gold, which there is the proper word, uſed for the tryall of the <hi>Teſt.</hi> And by the Septuagint tranſlated, <hi>hos dokimazetai to chryson.</hi>
+               </p>
+               <p>To all which if we add, that the proper Hebrew word for the <hi>Teſt</hi> is <hi>Cheres,</hi> having great affinity with the word <hi>ſheard</hi> in our language, &amp; that both in ſound &amp; ſignifica<g ref="char:EOLhyphen"/>tion, it will yet give greater light to the explication of the word <hi>Teſt.</hi> For that ſame word <hi>Iob</hi> 2:7. Is tranſlated a Pot-ſheard, and explained by interpreters <hi>Teſta ex argilla facta,</hi> and <hi>fictile igne coctum. Buxtor</hi> in his <hi>Lexicon,</hi> calls it ſimply <hi>Teſta.</hi> And this is the more to be remarked, for where ever we have in our tran<g ref="char:EOLhyphen"/>ſlation a <hi>Pot-ſheard,</hi> it is ſtill in the Latine <hi>Teſta,</hi> as <hi>Iob</hi> 2:8. The <hi>Vulgar</hi> hes it, <hi>Teſtâ ſaniem radebat. Iunius</hi> and <hi>Tremellius, adeo ut aſſumeret ſibi</hi> Teſtam <hi>ad ſca<g ref="char:EOLhyphen"/>bendum ſe eâ.</hi> Pſal. 22:16. <hi>Iunius</hi> hes it, <hi>areſcit ut</hi> Teſta <hi>vis mea: aruit tanquam</hi> Teſta <hi>virtus mea,</hi> the <hi>Vulgar.</hi> So Metaphorically <hi>Iſa.</hi> 45:9. <hi>Prov.</hi> 26:23. and particularly conſiderable is that in <hi>Iſa.</hi> 30:14. called the Potters Veſſel. The uſe whereof is ſaid there to carry fire. As alſo to purge Metalls. As will yet more clearly appear from that alluſion, God makes to it in <hi>Ezech.</hi> 22. from 18 to 23. where he ſayes he will melt them and purge them from their Braſſe, Tinne, Iron and Lead, and as Silver is melted in the midſt of the Furnace, ſo ſhould God melt them by affliction: The old Scholiaſt his diſcant thereon is very pleaſant, thou which before was pure Silver, reſplendent with Religion and ſhining with vertue, is now degenerated into the Braſſe of malice, and Stubborne obſtinacy: into the Tinne of Hipocriticall and diſſembled piety; the Iron of Tyranny, and the Lead of avarice, Il'e ſett my furnace in the midſt of <hi>Ieruſalem,</hi> where I ſhall make the <hi>Chaldeans</hi> the coalls and wood, my power and wrath the bellowes, Peſtilence, famine and warr ſhall be the fire wherewith I will conſume my obſtinat adverſaries, and expiat and purge my friends; where we have the very manner of the opera<g ref="char:EOLhyphen"/>tion of the <hi>Teſt</hi> clearly ſet down. Which kind of <hi>Teſts</hi> to have been in <hi>Solomons</hi> dayes may be proved from <hi>Prov.</hi> 25:4. And above 150 yeares ſince, the <hi>Teſt</hi> and its operation, <hi>in ſeparando omnem materiam alienam vi ignis ab auro &amp; argento,</hi> is excellently deſcribed by <hi>Matheolus Medicus Senenſis</hi> in his <hi>commentaries</hi> on <hi>Dioſcorides Lib.</hi> 5. <hi>Cap.</hi> 58.</p>
+               <p>Now there are three wayes to try Metalls, the Ballance, the Toutch-ſtone, and the <hi>Teſt,</hi> to ſhew its weight, its worth and its purity: To all which we ſee ane excellent Spiritual alluſion made by <hi>David, Pſal.</hi> 26:2. Examine me, that is by the Ballance; prove me, that is by the Toutch-ſtone; try me that is by the <hi>Teſt, vide Burges</hi> ſpiritual refinings, <hi>pag.</hi> 87.</p>
+               <p>And theſe three ſeveral words point furth alſo the degrees, reality, and found<g ref="char:EOLhyphen"/>neſſe of grace. And indeed the word <hi>trie me,</hi> is appropriat to the <hi>Teſt.</hi> Try me tho it were by fire. Therefore the <hi>Vulgar</hi> hes it, <hi>ure renes meos, &amp; cor meum.</hi> Upon which words <hi>Didymus Alexandrinus, Ierom's</hi> Maſter (tho from his youthhood blind) hes ane excellent commentarie, as on many other Scriptures. For whereas the <hi>Chaldee</hi> hes it <hi>perpurga,</hi> and <hi>Hieronymus, Conſta, Didymus</hi> in his notes conjoyneth them. <hi>Sicut aurifex igne explorat aurum, ſic tu Domine eor &amp; mentem, &amp; renes,</hi> i. e., <hi>intimos affectus meos conſtando &amp; perpurgando explora, ſi tibi viſum fuerit,
+<pb n="16" facs="tcp:175009:11"/>
+etiam per igneus tentationis, &amp; tribulationis.</hi> When in our language by a very ſignificant Proverb, we ſay of a Perſon or thing that is well approved, that is reall and upright; That it has paſt the <hi>Teſt:</hi> whereas on the contrary a thing or Perſon that cannot abide the <hi>Teſt,</hi> is called reprobator adulterat; as money abuſed with baſe mixtures, <hi>Ier.</hi> 6:30. Is called reprobat Silver. The Prophet gives this reaſon of it, <hi>verſſ..</hi> 28, 29. They were but Braſs and Lead, that did conſume, and could not abide the <hi>Teſt.</hi> So <hi>Ariſtotle</hi> in his <hi>Oeconomicks, adokimon epoiese nomisma.</hi> And his commentator there turns it, <hi>ab uſu remotum.</hi> That is, un-uſefull for Trade.</p>
+               <p>And as to Perſons we find the word taken in that ſame ſence in the New Teſta<g ref="char:EOLhyphen"/>ment 1 <hi>Cor.</hi> 9:27. Leſt I my ſelf ſhould be a caſt-away. The <hi>Vulgar</hi> hes it, <hi>Ne re<g ref="char:EOLhyphen"/>probus efficiar.</hi> Certainly it doeth not there ſignifie reprobat as oppoſite to elect, as <hi>A lapide</hi> ſeemes to inſinuat, as if Saint <hi>Paul</hi> had no aſſurance of his election, (as <hi>Tirinus</hi> on the place ſeems to intimat out of <hi>Gregorie</hi>) for that were contrary to many expreſſe Scriptures manifeſting, that Saint <hi>Paul</hi> both was elected, and alſo by ane immediat voice from Heaven, knew himſelf to be ſo. Therefore ſome referre that word rather to the Miniſtrie then the Perſon of Saint <hi>Paul,</hi> leſt his Miniſtrie ſhould be rejected as unſound, and not able to paſſe the <hi>Teſt,</hi> So 2 <hi>Cor.</hi> 13:5. The word is taken <hi>ne pas</hi> receivable as the <hi>French</hi> hes it. Tho both <hi>Beza</hi> and our tranſlators following him, have ſome what ſcrupulouſly turned the word <hi>Rejectaneus, <g ref="char:V">Ʋ</g>t pe<g ref="char:EOLhyphen"/>riculoſam homonymiam vitarem,</hi> ſayes he.</p>
+               <p>But laſtly obſerve, the <hi>Teſt</hi> may be made of any Beaſts bones but the Swine, be<g ref="char:EOLhyphen"/>cauſe it can admit of no unclean Beaſt, <hi>Reſpuit immundum regia</hi> Teſta <hi>Animal.</hi> And ſo <hi>Teſtam habemus etiam cum pulviſculo. Vide</hi> Eraſmi <hi>adagia ſub titulo, totum ut nihil reliqui.</hi>
+               </p>
+               <q>And <hi>Janus</hi> of his gate ſhall loſe the keye.</q>
+            </div>
+            <div n="2" type="chapter">
+               <head>
+                  <hi>CAP. II.</hi> Of <hi>Janus</hi> and his Temple.</head>
+               <p>
+                  <hi>JAnus</hi> was one of the moſt ancient Kings of <hi>Italy,</hi> Reckoned amongſt the <hi>abori<g ref="char:EOLhyphen"/>gines,</hi> about the thirtenth hundred yeare before the Birth of our Saviour, he firſt taught Husbandry and coyning of money; and becauſe of his wiſdome he was reported to know things paſt and to come: therefore they pictured him with two faces. And after his death being made a God, <hi>Numa</hi> built him a Temple, which in the time of peace he appointed to be ſhut, and left open in the time of warr. Whence <hi>Ianus</hi> was called <hi>Patuleus,</hi> and <hi>Cluſius.</hi> Or rather as <hi>Ovid</hi> hes it, <hi>Patul<g ref="char:EOLhyphen"/>ſius</hi> and <hi>Clauſius:</hi> As <hi>Lib.</hi> 1. <hi>Faſtorum.</hi> He brings him in thus.</p>
+               <q>
+                  <pb n="17" facs="tcp:175009:11"/>
+                  <l>Nomina ridebis, modo namque <hi>Patulſius</hi> idem</l>
+                  <l>Et modo Sacrifico <hi>Cluſius</hi> ore vocor.</l>
+               </q>
+               <p>Of which <hi>Virgil</hi> according to his lofty manner, <hi>ſunt geminae Belli portae, Religione Sacrae &amp; ſaevi formidine Martis.</hi> And a little after, <hi>nec cuſtos abſiſtit limine</hi> Janus.</p>
+               <q>
+                  <l>Has ubi certa ſedet patribus ſententia pugnae,</l>
+                  <l>Inſignis reſerat ſtridentia limina conſul.</l>
+               </q>
+               <p>
+                  <hi>Macrobius</hi> gives this reaſon of it, when <hi>Romulus</hi> was fighting againſt the <hi>Sabines,</hi> there was a great eruption of Hot-water in that ſame place where now <hi>Ianus</hi> Tem<g ref="char:EOLhyphen"/>ple ſtands, whereby the <hi>Sabins</hi> were confounded and put to the flight. The ex<g ref="char:EOLhyphen"/>pectation of the like aid makes them ever ſince in the time of warr, to leave the door of the Temple open. Others ſay they leave it open, becauſe they hope to come back and give thanks for the Victorie. And from the raigne of <hi>Numa,</hi> it was but thrice cloſed even to the times of <hi>Auguſtus.</hi> Firſt by <hi>Numa,</hi> then by <hi>Manlius Tor<g ref="char:EOLhyphen"/>quatus</hi> the Conſul, after the firſt Punick war. Laſtly by <hi>Auguſtus</hi> himſelf, <hi>poſt con<g ref="char:EOLhyphen"/>fectum bellum actiacum;</hi> about which time it is conjectured our Saviour was born. All which times are pertinently diſcribed by <hi>Stadius</hi> his <hi>Commentaries</hi> on <hi>Florus Cap. ult. Sect.</hi> 35. <hi>Goropius Becanus</hi> in his Book he calls <hi>Cronia,</hi> thinks he was <hi>Iaphet:</hi> Whom our Countrey-man M<hi rend="sup">r</hi>. <hi>Baily</hi> in the firſt Book of his <hi>Chronologie pag.</hi> 4. hes demonſtrated from <hi>Gen.</hi> 10:21. (againſt the <hi>Vulgar</hi> tranſlation) to have been the eldeſt Son of <hi>Noah. Quintus Fabius</hi> Pictor, in his Book <hi>de Aureo Saeculo</hi> Printed in the year 1530. tells, he was the firſt that ever taught the <hi>Italians</hi> the uſe of Wine, and the nature of Sacrifices: and did firſt erect Altars to the honour of God. <hi>Fuit Ianus</hi> (ſayes he) <hi>Sacerdos &amp; vir Religioſus, Doctus Theologus &amp; Philoſophus. Avenarius</hi> (whom <hi>Fuller</hi> in his <hi>Miſcelanies,</hi> and <hi>Foord</hi> on <hi>Pſal.</hi> 68. thinks, the moſt skillfull in the Hebrew tongue, and that he hath written the beſt Dictionary either for ſingnifications or etymologies.) Is only in the minde that is properly <hi>Noah</hi> that was ſo called: And derives <hi>Ianus</hi> from <hi>Iaijn vinum,</hi> from whence he derives <hi>oinos</hi> in the Greek, and <hi>vinum</hi> in the Latine. And ſo ſayes <hi>Mercer, quia primus omnium vi<g ref="char:EOLhyphen"/>num inveniſſe dicitur.</hi> And that he is Painted with two faces, becauſe <hi>Noah</hi> ſaw both the age that was before, and that which came after the Flood, both the old and new World. <hi>Petavius</hi> in his <hi>Rationarium temporum, Lib.</hi> 1. <hi>Chap.</hi> 11. Aſſures us, <hi>Ianus</hi> was the firſt King of <hi>Italie,</hi> whom according to <hi>Euſebius</hi> computation in his Chronicon, he makes to be 1330 yeares before our Saviours birth: From which time he deduces the antiquity of the Idolatrie of the Gentiles, thô <hi>Iupiter</hi> and <hi>Ianus</hi> too were made Gods, long after their death. He reckones it about that time that <hi>Ehud</hi> was judge in <hi>Iſrael.</hi> But <hi>Lactantius</hi> in the ſecond Book of his <hi>inſtitutions de origine errorum, Cap.</hi> 14. ſpeaking of <hi>Noah, unde arguuntur</hi> (ſayes he) <hi>qui authorem vini Liberum putant, ille enim non modo Liberum ſed etiam</hi> Saturnum <hi>atque</hi> Uranium, <hi>multis auteceſſit aetatibus.</hi> In his firſt Book <hi>Cap.</hi> 13. He tells us how <hi>Saturn</hi> was hoſpitably received by <hi>Ianus</hi> in <hi>Italie;</hi> Wherein if he contradict himſelf <hi>viderint
+<pb n="18" facs="tcp:175009:12"/>
+alii.</hi> But that which is moſt to our purpoſe is that of <hi>Ianus</hi> Temple, which as <hi>Beaumont</hi> a modern Poët ſweetly Sings:
+<q>
+                     <l>Whoſe Temple ſhutt to Romans, did declare</l>
+                     <l>A ſettled Peace; but open, open warr.</l>
+                  </q>
+                  <hi>D. Owen</hi> in his Book <hi>de natura Theologiae &amp; progreſſu Idololatriae Lib.</hi> 3. <hi>Cap.</hi> 2. Aſ<g ref="char:EOLhyphen"/>ſerts <hi>Ianus</hi> to have been <hi>Noah</hi> on the ſame accompts. There is one remark concerning <hi>Ianus,</hi> that I find in many Authors which will very much ſtrengthen the learned <hi>Petavius</hi> conjecture. Particularly <hi>Pompejus Feſtus de ſignificatione verborum pag.</hi> 34. ſpeaking of the <hi>Chaos, ex eo chiainein Greci, &amp; nos hiare dicimus, unde</hi> Janus <hi>de<g ref="char:EOLhyphen"/>tractâ aſpiratione nominatur, ideo quòd fuerit omnium primus cui primò ſupplicabant, velut parenti, &amp; à quo rerum omnium factum putabant initium.</hi> And that <hi>Ianus</hi> was firſt invocat in all their devotions, prayers and Sacrifices, is testified by Saint <hi>Auguſtine</hi> (out of <hi>Varro</hi>) in his 7 Book <hi>de Civitate Dei, Cap.</hi> 9. As alſo by <hi>Macrobius Lib</hi> 1. <hi>Saturn. Cap.</hi> 9. and <hi>Cap.</hi> 26. and by <hi>Servius</hi> in <hi>Lib.</hi> 1. <hi>Aeneid ad verſum, cana fides &amp; veſta. Cicero Lib.</hi> 1. <hi>de nat. deor. principem in Sacrificando</hi> Janum <hi>eſſe voluerunt. Horat. Epiſt.</hi> 16. <hi>Lib.</hi> 1. <hi>Arnobius Lib.</hi> 3. <hi>adverſus gentes,</hi> doers extreamly ſcorne them for this <hi>folie, Quaſi ad Deorum audientiam viam panderet</hi> Janus. So ſayes Aurelius Victor <hi>in breviario Hiſtoriae Romanae.</hi> Barnabas Briſſonius in his Learned book <hi>de Formulis,</hi> hes told us, that the form of the Heathens more ſolemne devo<g ref="char:EOLhyphen"/>tion did ever beginne thus, <hi>Iane, Iupiter, Marſ-piter, Quirine, Lares.</hi> And <hi>Ovid.</hi> in <hi>Lib.</hi> 1. <hi>Faſt.</hi> Brings in him thus ſpeaking for himſelf, <hi>ut poſſis aditum per me que limina ſervo. Ad quoſcunque voles inquit habere Deos.</hi> Theſe that are curious to know more of <hi>Ianus</hi> may conſult <hi>Varro Lib.</hi> 4. <hi>de ling. Lat. Velleius Pater. Lib.</hi> 2. <hi>Plinius Nat. Hiſt. Lib.</hi> 34. <hi>Cap.</hi> 7. <hi>Sueton in Nero Cap.</hi> 14. <hi>&amp; auctor libri de viris illu<g ref="char:EOLhyphen"/>ſtribus Cap.</hi> 13. ſo <hi>Virgil. Lib.</hi> 7. and 12. <hi>Ovid. Lib.</hi> 1. <hi>Faſt.</hi> And <hi>Lib.</hi> 4. <hi>de Ponto Eleg.</hi> 4. <hi>Pomp. Feſt. in voce opima</hi> and <hi>ſororium tigillum.</hi> As alſo <hi>Plutarch</hi> in <hi>aitiois. Fabius</hi> Pictor <hi>de aureo ſaeculo;</hi> in all which they may ſee what ſeveral Names, Sur<g ref="char:EOLhyphen"/>names and appellations and honour, the old Heatheniſh ſuperſtition beſtowed on <hi>Ianus.</hi>
+               </p>
+               <div n="2" type="section">
+                  <head>SECTION II.</head>
+                  <div type="subpart">
+                     <head>And every one Sang <hi>Jo</hi> to thy praiſe.</head>
+                     <p>JO was ane exclamation uttering ſome raviſhing joy, eſpecially in the time of Triumphes. So <hi>Ovid</hi> deſcribing the Triumph of <hi>Auguſtus</hi> over <hi>Germany,</hi> and ſome add <hi>Tiberius</hi> with him, whom he there calls, <hi>Victores</hi> Caeſar <hi>uterque,</hi> he adds long after.</p>
+                     <q>
+                        <l>Tempora <hi>Phoebea</hi> Lauro eingentur <hi>Joque</hi>
+                        </l>
+                        <l>Miles <hi>Jo</hi> magnâ vote Triumphe canet.</l>
+                     </q>
+                     <p>
+                        <pb n="19" facs="tcp:175009:12"/>This was the ordinar acclamation unto the Emperour in the time of Triumph, being carried through the City to the Capitol; ſo ſayes <hi>Varro Lib.</hi> 5. <hi>de ling. Lat. Livius Lib.</hi> 21. tells us of ane Infant in the Mothers Bellie, that had the ſame acclamation, but he is known to be ſuperſtitiouſly fabulous. <hi>Horat. Lib.</hi> 4. <hi>Carm. de Triumph.</hi> Au<g ref="char:EOLhyphen"/>guſti. <hi>Tuque dum procedis</hi> Jo <hi>Triumphe</hi> &amp;c. <hi>Idem Lib. Epod. od.</hi> 9. Io <hi>Triumphe tu moraris aureos currus.</hi> So <hi>Tibullus Lib.</hi> 2. <hi>Eleg.</hi> 6. And <hi>Ovid. Lib.</hi> 4. <hi>Triſt. Eleg.</hi> 2. <hi>ut ſupra. Idem Lib.</hi> 1. <hi>Amor. Eleg.</hi> 2. <hi>Martiall Lib.</hi> 7. <hi>Epig. Vulgus</hi> Jo <hi>magnos clamat tibi Roma Triumphos,</hi> where we ſee he puts it in the accuſative. As alſo <hi>Ovid. Meta<g ref="char:EOLhyphen"/>morp. Lib.</hi> 1. <hi>Laeta Triumphum vox canet,</hi> where be brings in <hi>Apollo</hi> ſpeaking of the <hi>Laurell. Alſimus Avitus Lib.</hi> 6. <hi>ad Fuſſinam ſororem Cap.</hi> 6. <hi>Hoſtibus evictis &amp;</hi> Jo <hi>clamante Triumpho.</hi> To <hi>Io</hi> was ordinarly added <hi>Paean,</hi> which as the Scholiaſt of <hi>Ariſtophanes</hi> obſerves, is a Song or Hymne praying for the ceaſing of a war, or preven<g ref="char:EOLhyphen"/>ting of a danger. <hi>Scaliger</hi> doth learnedly write that <hi>Iao</hi> and <hi>Io</hi> are contracted by the Greeks for <hi>Iehovah.</hi> And its affirmed by many, That <hi>Paean</hi> comes from the Hebrew word <hi>Panah</hi> to behold and look upon. And ſo <hi>Io Paean</hi> will have the force of <hi>Iehovah Penoth,</hi> Lord look upon us. From <hi>Panah</hi> comes the Greek <hi>phainomai. Vide Rouſe, Archaeologiae Atticae. Lib.</hi> 2. <hi>Cap.</hi> 2.</p>
+                  </div>
+                  <div type="subpart">
+                     <head>Care of Religion is the glorious gemm, <hi>Lin. 7.</hi>
+                     </head>
+                     <p>
+                        <hi>Ariſtotle Polit. Lib.</hi> 7. <hi>Cap.</hi> 8. <hi>proton he peri theioon epimeleia,</hi> makes it the principal part of the Princes office to have a care of Religion. <hi>Auguſtine Tract.</hi> 11. on <hi>Iohn, per<g ref="char:EOLhyphen"/>tinet hoc ad reges ſaeculi Chriſtianos ut temporibus ſuis pacatam velint habere matrem ſuam Eccleſiam. Leo primus ad Imperatorem Leonem, debes Imperator incunctanter advertere regiam poteſtatem, tibi non ſolum ad mundi regimen ſed maximè ad Eccleſiae praeſidium eſſe collatam.</hi> The Evangelicall Prophet foretells that Kings ſhall be the Churches Foſter-fathers, <hi>Iſa.</hi> 49:23. and 44:28. <hi>Optat. lib.</hi> 3. <hi>contra Parmen:</hi> Auguſtine <hi>contra Creſcon: lib.</hi> 3. <hi>cap.</hi> 51. in his 48. <hi>Epiſt. ad Vincent.</hi> in his 52. <hi>Epiſt. ad Macedon.</hi> in his 61. <hi>Epiſt. ad Dulcit.</hi> In all which he largely and learnedly demon<g ref="char:EOLhyphen"/>ſtrats it to be the dutie of Chriſtian Princes to have the chief care of matters that con<g ref="char:EOLhyphen"/>cern Religion, affirming, <hi>in hoc Reges Deo ſerviunt,</hi> that its for that end Principally God hath beſtowed their authority upon them. <hi>Iſiod. Hiſp. de ſum. bon. lib</hi> 3. <hi>cap.</hi> 53. Affirmes that the cheife end of ſecular authority, is to fortify Eccleſiaſticall Diſ<g ref="char:EOLhyphen"/>cipline.</p>
+                  </div>
+                  <div type="subpart">
+                     <head>
+                        <hi>Who adheres to</hi> Baal <hi>lin.</hi> 16. 2 <hi>Kings</hi> 10:18, — 29. Conſtantius Syr. <hi>&amp;c. lin.</hi> 17.</head>
+                     <p>Euſebius <hi>de vita</hi> Conſtantini <hi>lib.</hi> 2. <hi>pag.</hi> 251. The <hi>Teſt</hi> was either, they ſhould ſhew themſelves Idolaters, and Sacrifice to the Idols, and ſo become his minions and fa<g ref="char:EOLhyphen"/>vorits, elſe refuſe it, and by that meanes denyed ever after all acceſſe to his pre<g ref="char:EOLhyphen"/>ſence, <hi>Sed commento quod caelatum erat, ſtatim poſt patefacto, alios propter ſinceram &amp; integram erga Deum mentem approbavit plurimùm, alios tanquam Dei proditores, ſervitio Imperatoris indignos cenſuit.</hi> And a little after, <hi>illos qui veritatis Teſtimonio</hi>
+                        <pb n="20" facs="tcp:175009:13"/>
+(the <hi>Teſt) digni Deo fuere comprobati, ſimiles erga Imperatorem fore affirmans ſtipa<g ref="char:EOLhyphen"/>tores, &amp; ipſius regni cuſtodes conſtituit.</hi> Adding, that ſuch faithfull friends are more worthy to a Prince then ane Exchequer full of richeſt treaſure.</p>
+                  </div>
+                  <div type="subpart">
+                     <head>Siſibut, lin. <hi>19.</hi> Iſidor. lib. <hi>5.</hi> Etym. &amp; Hiſpan. annall. Anno <hi>1616. French Dagobert,</hi> lin. <hi>20. Paulus Aemilius</hi> in <hi>Dagobert.</hi> An Appendix concerning <hi>Baal.</hi>
+                     </head>
+                     <p>
+                        <hi>BAal</hi> ſo called by the Hebrews, is by the <hi>Carthaginians</hi> named <hi>Bal,</hi> and by the <hi>Aſſyrians Bel,</hi> as is obſerved by <hi>Servius Grammaticus</hi> and <hi>Fabricius</hi> in his notes on the Chriſtian Poets, and is by interpretation Lord, Husband, and Patron; becauſe the Idolaters do ſubject themſelves to their Idols as Servants to their Maſters, Wiſes to their Husbands, and Clients to their Patrons. This was the moſt famous Idol in all the Eaſt; to whom the Jews by the inſtigation of the De<g ref="char:EOLhyphen"/>vill, and inſtruction of <hi>Balaam, (per intervalla)</hi> from the time of the Judges to the <hi>Babyloniſh</hi> captivity, did homage and worſhip. To this curſed dance the <hi>Aſſyrians</hi> firſt led the Ring. For <hi>Nimrod</hi> (as <hi>Victor Maſſilienſis</hi> writeth in his thrid Book) was the firſt that erected a ſtatue and did Sacrifice to <hi>Baal,</hi> in me<g ref="char:EOLhyphen"/>morial of the death of his only Son. And <hi>Belus</hi> ſucceeding him did more violently propagat that monſtrous Idolatry, from whom the name <hi>Bel</hi> was given this Idol, amongſt the <hi>Aſſyrians.</hi> And as error hes ordinarly a prodigious fertility, and a monſtrous Birth (as <hi>Caſſianus</hi> obſerves) ſometimes from the different rites of Wor<g ref="char:EOLhyphen"/>ſhip, and different places where, and Perſons by whom he was worſhipped, recei<g ref="char:EOLhyphen"/>ved diſtinct Titles, as alſo by the benefits aſcribed to him by his worſhippers. For</p>
+                     <p n="1">1. He is called <hi>Baal-peor,</hi> the God of nakednes or gaping, <hi>Num.</hi> 25:3, 5. <hi>Deut.</hi> 4:3. <hi>Hoſ.</hi> 9:10. and ſimply called <hi>Pehor, Numb.</hi> 25. laſt verſe. <hi>Ioſ.</hi> 22:17. <hi>Pſal.</hi> 106:28. The God of the <hi>Moabits,</hi> worſhipped on the mount <hi>Pehor,</hi> and by <hi>Hieron. lib.</hi> 1. <hi>adverſus</hi> Jovinian. and on <hi>Eſ.</hi> 25. ſuppoſed to be <hi>Priapus</hi> that abominable and obſcene monſter. So ſayes <hi>Adrichomius</hi> in his <hi>Theatro Terrae Sanctae,</hi> in <hi>Ruben. Iſidor. Lib.</hi> 5. <hi>Originum, Cap.</hi> 11. <hi>Theophilact</hi> on <hi>Hoſ.</hi> 4:9. and <hi>Lorinus</hi> on <hi>Pſal.</hi> 105. <hi>Bucer</hi> and <hi>Calvin</hi> on 105 <hi>Pſ.</hi> derives it from the <hi>Hebrew</hi> word that ſignifies to make bare or open, from theſe ſhamefull and abominable Practices uſed in the ſervice of <hi>Baal.</hi> With what artes and inticements the <hi>Midianites</hi> brought the Jews to practiſe ſuch pollutions, <hi>Ioſephus</hi> tells in 4 Book of his <hi>Antiq.</hi> 5. <hi>Cap.</hi> Now <hi>Baalpehor</hi> is <hi>Baal</hi> wor<g ref="char:EOLhyphen"/>ſhipped on the Mount <hi>Pehor Numb.</hi> 23:28. See <hi>Suidas</hi> in <hi>Belphegor.</hi> Juſt ſo was <hi>Iupi<g ref="char:EOLhyphen"/>ter</hi> called <hi>Capitolinus,</hi> and <hi>Olympius.</hi> How the unclean Spirit Triumphed thus amongſt the <hi>Heathen,</hi> ſee <hi>Gerardus Voſſius, de Origine Idolatriae lib.</hi> 2. <hi>cap.</hi> 1. amongſt the <hi>Romans</hi> was ſuch a monſtrous God of uncleanneſs called <hi>Lupercus,</hi> and <hi>Mutinus,</hi> And amongſt the <hi>Italians Arcalius.</hi>
+                     </p>
+                     <q>
+                        <l>Qualiter in caeno obſcaeno, quantoque reatu,</l>
+                        <l>Degitur hoc aevi quodcunque eſt?</l>
+                     </q>
+                     <p n="2">
+                        <pb n="21" facs="tcp:175009:13"/>2. <hi>Baalzebub</hi> or <hi>Belzebul,</hi> the God of <hi>Ekron,</hi> whom <hi>Ahaziah</hi> conſulted anent his health, 2 <hi>King.</hi> 1:2. Becauſe they believed him to have power of liſting or laying on diſeaſes. Alſo he was over their Store-houſes and Butteries to drive away the Flies, others think that the Sacrifices offered to this God, were ſo infeſted with Flies, that they gave occaſion to this Epithet, eſpecially amongſt the Jews who did upbraid them with it, whereas in the Temple of <hi>Solomon</hi> notwithſtanding of the great and conſtant multituds of Sacrifices, yet there was never any Flie ſeen to moleſt them. So in an holy Scorn is the Prince of the Devills by the Jews 12 <hi>Mat.</hi> 24. called <hi>Belzebul,</hi> that is, the God of Dirt: for <hi>Zebul</hi> ſignifies <hi>Stercus, i. e., Deus Stercoreus;</hi> this properly in the <hi>Chaldee</hi> tongue. By <hi>Pauſanias in Atticis,</hi> he is called <hi>Myiodes,</hi> that is <hi>Iupiter Muſcarius,</hi> and <hi>Lilius Giraldus in Syntagmate</hi> 2 <hi>de jove,</hi> proves at large to be that ſame <hi>Iupiter</hi> that other nations worſhipped. See <hi>Plinius lib.</hi> 29 <hi>cap.</hi> 6. and <hi>lib.</hi> 8. <hi>cap.</hi> 29. and <hi>lib.</hi> 10. <hi>cap.</hi> 28. called <hi>Achor</hi> from <hi>Ekron.</hi> But which is moſt conſide<g ref="char:EOLhyphen"/>rable the ſeptuagint in 2 <hi>King.</hi> 1. and 2. hes <hi>Baal Myian</hi> the Flie-God. Who to the <hi>Ekronits</hi> was their <hi>Aeſculapius.</hi>
+                     </p>
+                     <p n="3">3. <hi>Baal Phegor,</hi> that is, the God of <hi>Carcaſſes,</hi> 2 <hi>King.</hi> 19:35. They were all dead corpſes. Its that ſame word <hi>Phegor.</hi> Otherwiſe called <hi>Molech</hi> a Prince, for its all one, as may be proven from <hi>Amos</hi> 5:26. This was the God of the <hi>Phaenicians</hi> as <hi>Ennius</hi> hes it, <hi>Poeni ſunt ſoliti ſos Sacrificare puellos.</hi> And <hi>Silius Italicus</hi> turns it.</p>
+                     <q>
+                        <l>Mos fuit in populis quos condidit advena Dido</l>
+                        <l>Poſcere coede Deos veniam, ac flagrantibus aris</l>
+                        <l>Infandum dictu! Parvos imponere natos.</l>
+                     </q>
+                     <p>The Ancients generally call it <hi>anthropothusia Phaenicia;</hi> which <hi>Achaz</hi> and <hi>Manaſſes</hi> the <hi>Iſraelits</hi> did <hi>Imitate.</hi> The reaſon is given by the Prophet <hi>Mic.</hi> 6:6. and 7. to Pacifie, as they ſuppoſed, the guilt of their inraged conſciences.</p>
+                     <p n="4">4. <hi>Baal Bozor</hi> the God of ſcattering, and diſſipation: to whom they made vows when they went to warr, as the <hi>Greeks</hi> did to <hi>Mars,</hi> and <hi>Pallas.</hi>
+                     </p>
+                     <p n="5">5. Was <hi>Baal Berith;</hi> the God of the Covenant. <hi>Iudg.</hi> 8:33. After <hi>Gideon</hi> was dead they made <hi>Baal Berith</hi> their God, and <hi>Iudg.</hi> 9:4. We read of the Temple of <hi>Baal Berith,</hi> and the 9:46. ſimply called <hi>Berith. Gideon</hi> their Governour being gone, they entred in a Covenant to ſerve <hi>Baal</hi> and forſake their God; this is the <hi>Baal</hi> that is meaned in the body of the Poem.</p>
+                  </div>
+               </div>
+               <div n="3" type="section">
+                  <head>SECTION III. <hi>Lin.</hi> 1.</head>
+                  <p>
+                     <hi>ARgo</hi> was the firſt great Ship we read amongſt Heathen writers, and was that wherein <hi>Iaſon</hi> and his Company fifty two in Number, went to <hi>Colchis</hi> to bring
+<pb n="22" facs="tcp:175009:14"/>
+away the Golden Fleece. It had the name of <hi>Argo</hi> from its Author or firſt builder, as we call the Ark <hi>Noahs</hi> Ark, or rather if we believe <hi>Cicero Tuſcullan. queſt. lib.</hi> 1. Argo <hi>nominata eſt quia</hi> Argivi <hi>in ea lecti viri vecti, petebant pellem inauratam Arietis.</hi> But here its taken appellatively.</p>
+                  <p>(<hi>Cataracts lin.</hi> 5.) A Cataract is properly a violent fall of Water from a ſteep and high rock, with a great ruſhing noiſe, from the Greek <hi>katarasso,</hi> which ſignifies to fall down head long with violence. We call it a Linn, ſuch as <hi>Carhous</hi> Linn on the Water of <hi>Clyd. Plinius</hi> in his 5 Book Chap. 9. ſpeaking of the River <hi>Nilus</hi> ſayes, <hi>Cataractes inter occurſantes ſcopulos, non fluere immenſo fragore creditur, ſed ruere.</hi> It doeth not ſo much runne amongſt the Steep-rocks as Ruſh. <hi>Strabo</hi> in his 14 Book: and <hi>Pomponius Mela</hi> in the deſcription of <hi>Pamphilia,</hi> tells us of a River called <hi>Cata<g ref="char:EOLhyphen"/>racta adeo rapidus, ab alta petra deſcendens, ut longiſſimè ſtrepitus exaudiatur,</hi> Here its taken for a deludge or open flood-gate of rebellion, ſuch as overflowed us lately: and the Waters are not yet fully abaited. <hi>Dii talem terris avertite peſtem!</hi> The He<g ref="char:EOLhyphen"/>brew word is <hi>Arrubah</hi> which ſignifies the Flood-gates, as <hi>Gen.</hi> 7:11. The windows of Heaven were opened. But in the deludge of rebellion the windowes of Hell are opened: For the Devill himſelf was the firſt rebell, and by our ſcattering is his Kingdom gathered.</p>
+                  <p>
+                     <hi>Lin.</hi> 8. <hi>(Beawtie and bandes.)</hi> In alluſion to that of <hi>Zech.</hi> 11. and 7. which tho in<g ref="char:EOLhyphen"/>terpreters apply to the Government of the firſt and ſecond Covenant, Old and New Teſtament, Jews and Chriſtians, as <hi>Vatabulus</hi> and others: yet here, in a more Po<g ref="char:EOLhyphen"/>litick ſence it ſignifies the Government of Church and State.</p>
+                  <p>
+                     <hi>Lin.</hi> 12. <hi>(Iſthmus)</hi> Is a neck of land on each ſide incloſed with Seas, whereof we read ſeveral in Geographie: in <hi>Aegypt, Cherſoneſus</hi> the <hi>Euxin</hi> Sea and this of <hi>Pelo<g ref="char:EOLhyphen"/>poneſus</hi> betwixt the <hi>Aegean</hi> and the <hi>Ionian</hi> Seas where Corinth ſtands; hence it is that Corinth is called <hi>Bimaris</hi> both by <hi>Horat. lib.</hi> 1. <hi>carm.</hi> Bimariſque Corinthi <hi>menia.</hi> And <hi>Ovid. Faſt.</hi> 4. <hi>Hadriacumque patens latè</hi> Bimaremque Corinthum. And <hi>Iſthmus</hi> is ſo called by <hi>Ovid. Eleg.</hi> 10. <hi>lib.</hi> 1. <hi>Triſt. At poſtquam</hi> Bimarem <hi>curſu ſuperavimus</hi> Iſth<g ref="char:EOLhyphen"/>mum. <hi>Vide</hi> Martiani <hi>Capellae Satyricon Lib.</hi> 6. <hi>de tertio ſinu</hi> Europae <hi>pag. mihi</hi> 210. where he hes the Deſcription of <hi>Iſthmus</hi> and <hi>Corinth</hi> with <hi>Crotius</hi> notes, which he wrote being but fourteen yeares of age. But <hi>Iſthmus</hi> Metaphorically may be taken for any thing that divides betwixt two extreames: And ſome hes expreſſed by this word the midle part or bridge of the noſe, as <hi>Iunius</hi> in his nomenclatura tells us of ſome Phy<g ref="char:EOLhyphen"/>ſitians that ſo expreſſed <hi>narium ſepimentum.</hi> And the learned <hi>Budeus</hi> in his annota<g ref="char:EOLhyphen"/>tions on the <hi>Pandects</hi> ſayes, this word properly ſignifies the Neck or the weſſand of a Man, and by a Metaphore only comes to ſignifie that narrow part of a continent in<g ref="char:EOLhyphen"/>cloſed by two Seas: from whence ſayes he that of <hi>Peloponeſus</hi> by ane Antonomaſie only is ſo called. And tho there be but five miles diſtance, yet neither <hi>Demetrius, Caeſar, Nero</hi> nor <hi>Caligola</hi> who all attempted it were able to break throw a paſſage. Whence it came into a Proverb, <hi>Iſthmum perfodere; in eum qui magno conatu ſed irrito aliquid moliretur. Vide Plin. Lib.</hi> 4. <hi>Cap.</hi> 4. <hi>Sueton in</hi> Nero <hi>Cap.</hi> 19. <hi>Et in vitam Calig. Cap.</hi> 21. And ſo generally it is exponed <hi>interſtitium, intercapedo. Ab jenai ire.</hi> The oppoſite whereof is <hi>porthmos. Vide</hi> Calepine <hi>in voce.</hi>
+                  </p>
+               </div>
+               <div n="4" type="section">
+                  <pb n="23" facs="tcp:175009:14"/>
+                  <head>SECTION IV. Lin. 9.</head>
+                  <q>
+                     <l>It's non-ſence.</l>
+                     <l>That Princes hes no power of ſubjects conſcience.</l>
+                  </q>
+               </div>
+            </div>
+            <div n="3" type="chapter">
+               <head>
+                  <hi>CAP. III.</hi> Shewing that the King hes power of the conſcience of the ſubject, and in what ſence the ſame may ſafely be maintain'd.</head>
+               <p>FOr clearing this, we muſt conſider theſe three. Firſt what conſcience is. Second<g ref="char:EOLhyphen"/>ly, what the nature of the obligation is, that binds the conſcience. Thirdly, the efficacie of this obligation.</p>
+               <p>Conſcience by the ancients, generally, and more particularly by <hi>Clemens Alexandri<g ref="char:EOLhyphen"/>nus,</hi> is called <hi>Cenſor,</hi> Corrector, and <hi>Paedagogus animae.</hi> But it will not be proper here to expatiat much on this ſubject; I having written a treatiſe of the nature, effects, pro<g ref="char:EOLhyphen"/>perties, obligation, acts and conſequence of conſcience, in ſeveral Sermons Preached at <hi>Libertoun,</hi> on <hi>Act</hi> 24:16. and <hi>Acts</hi> 2:37. and <hi>Rom.</hi> 2:15. which by aſſiſtance of God, and good neighbours, I intend ſhall ſee the light of the World. It ſhall only now ſuffice to tell, that I think it is no Act either of will or underſtanding, but a proper facultie of the Soul it ſelf; which of all the faculties of man hes recei<g ref="char:EOLhyphen"/>ved the leaſt hurt by the fall, it even in the breaſts of the moſt unregenerat taking or<g ref="char:EOLhyphen"/>dinarly Gods part. It may ſuffice therefore to define it, that facultie whereby application of general knowledge is made to particular actions, followed allwayes with joy or grief: In which ſence the Scriptures are not the adequat rule of conſcience, otherwayes the Heathen which never heard the Scriptures had had no conſcience contrair to <hi>Rom.</hi> 2:14, 15.</p>
+               <p>The ſecond thing to be conſidered, is what it is to bind the conſcience, which is brieflie this; to impoſe a neceſſity of obedience upon it: ſo that the ſence of the queſtion is, whither or not humane Laws do impoſe ſuch a neceſſity of obedience on the conſcience, that the contraveening thereof is not only lyable to a temporal pu<g ref="char:EOLhyphen"/>niſhment, but deſervedly alſo to the anger and offence of God. The difference be<g ref="char:EOLhyphen"/>twixt mandats and Laws, perpetual and curſorie, conſtant and accidental obliga<g ref="char:EOLhyphen"/>tions, we cannot ſtand to diſcuſſe.</p>
+               <p>For the third, we muſt 1. conſider, that the power of making Lawes is the preroga<g ref="char:EOLhyphen"/>tive Royal given by God unto Kings, without which it were abſolutly impoſſible for
+<pb n="24" facs="tcp:175009:15"/>
+them to attaine the ends of Government, and therefore he that ſaid, by <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e Kings Reigne, ſaid alſo, by me Princes Decree Juſtice, that is, ordaines, makes and exe<g ref="char:EOLhyphen"/>cutes, juſt and wholſome Lawes. Wherefore King and Law-giver are put together in Scriptures, <hi>Iſa.</hi> 33:22. The Lord is our King, the Lord is our Law-giver, <hi>Rom.</hi> 13:1, 2, 3. 1 <hi>Pet.</hi> 2:13. ſhewes what power Kings are inveſted with, and there is a great reaſon for it; the execution of the Law being that mean whereby the pub<g ref="char:EOLhyphen"/>lict good may both be preſerved and promoved, and wherein eſſentially the office of the Magiſtrat doth conſiſt, and the difference betwixt him, and his ſubjects lyes, for which end God conferrs on the Magiſtrat <hi>Numb.</hi> 11:17. a particular Spirit of Government, 1 <hi>Sam.</hi> 10:6. <hi>Samuel</hi> tells <hi>Saul</hi> that the Spirit of God ſhall come upon thee, and thou ſhalt be turned into another man. And this by <hi>Solomon, Prov.</hi> 20:12. is called the ſeeing Eye, as ſubjection is called the hearing Eare. It was the Magiſtrat ruling by the civill Law even before it was Chriſtned, to which we are commanded to be ſubject by the Apoſtle Saint <hi>Paul Rom.</hi> 13. and Saint <hi>Peter,</hi> 1 <hi>Pet.</hi> 2. And to the Priviledge of the <hi>Roman</hi> Policie Saint <hi>Paul</hi> did appeal, <hi>Acts</hi> 25:10. All which invincibly infer not only ane approbation of the Law being made, but alſo the Ma<g ref="char:EOLhyphen"/>giſtrats power in making of it. Neither was this ever denyed, but by <hi>Caroloſta<g ref="char:EOLhyphen"/>dius,</hi> and the late rable of Monſters amongſt our ſelves, who would ſend us from our Laws, as far back as the judiciall Syſtem amongſt the Jews: tho it be confeſſed by all to be abrogated, as being only temporary, and accommodat to certaine cir<g ref="char:EOLhyphen"/>cumſtances of times, places, and perſons, which now can have no obligation upon us.</p>
+               <p n="2">2. Theſe Laws made and promulgat by the Magiſtrat, are of force to bind the conſcience: many both Proteſtants and Papiſts are down right againſt this propoſi<g ref="char:EOLhyphen"/>tion, affirming it proper to God only to bind the conſcience. So ſayes <hi>Calvin lib.</hi> 3. <hi>inſtit.</hi> 9. <hi>cap. ſect.</hi> 15. And <hi>Sibrandus lib.</hi> 8. <hi>de pontifice</hi> Romano <hi>cap.</hi> 7. <hi>Vaſques lib.</hi> 1. <hi>Illuſt. contraverſ.</hi> 28. 1. And theſe would only have the Magiſtrats power to reach the body or Fortunes of the ſubject, alleadging, no humane power can go fur<g ref="char:EOLhyphen"/>ther. To which we oppoſe theſe following arguments.</p>
+               <p n="1">1. A man may bind his own conſcience; as is confeſſed by all in the caſe of Law<g ref="char:EOLhyphen"/>full vowes, they are in our own power before they are made, <hi>Act.</hi> 5:4. But after that, they are Gods bondes, and do bind the conſcience to performance. Where<g ref="char:EOLhyphen"/>fore that doeth not altogether hold, that God only can bind the conſcience. Other<g ref="char:EOLhyphen"/>wayes either vowes do not bind, or elſe no man can ingage himſelf in them; either of which to affirme is abſurd. I find <hi>Alſted. Theol. caſ. cap.</hi> 2. <hi>reg.</hi> 2. to make great uſe of this argument.</p>
+               <p n="2">2. In the <hi>Rom.</hi> 13. we learne that Magiſtrats have power and authority to enact Laws, and therefore they are called powers. 2. That theſe Lawes of the Magiſtrat do receive ſtrength and force from the Law of God: for the powers that are (ſayeth he) are ordained of God. 3. That the Laws made by the Magiſtrat have power to bind conſcience, <hi>v.</hi> 5. We muſt be ſubject not only for wrath but conſcience ſake. And if we reſiſt them, we reſiſt the ordinance of God, and pull down Gods judgment and bring condemnation on our ſelves, when we ſo do, ſayeth the Text, <hi>verſe</hi> 2. And therefore to contemne the Laws of men, tho not expreſſely, (for then they are Gods) but virtually contained in the word of God, is to be diſobedient to God him<g ref="char:EOLhyphen"/>ſelf.</p>
+               <p n="3">
+                  <pb n="25" facs="tcp:175009:15"/>3. Conſider, that conſcience hath relation not to God only, but to man alſo, <hi>Acts</hi> 24:16. Conſcience both towards God and man, it hath the principal relation to God, as being the abſolute binder thereof, yet in and through him to man and his Laws alſo: For it is to be here remarked, that, at that ſame inſtant Saint <hi>Paul</hi> was pleading before ane Heathen Magiſtrat.</p>
+               <p n="4">4. We muſt conſider that we are not only to make conſcience of Religion and the worſhip of God, but of civil things alſo: For tho things that are civil as civil, do not of themſelves, and immediatly bind the conſcience, yet by vertue of ane higher Law to which they are ſubordinat and ſubjoyned; being made by the Magiſtrat as the Miniſter of God, and backed by his Authority which is Gods Seall, ſo they oblidge the conſcience; and not to performe obedience to ſuch Laws, (as for inſtance ſump<g ref="char:EOLhyphen"/>tuary Laws made for moderating expence at banquetings or burialls, or in apparel or the like: ſuch as <hi>Aulus Gellius</hi> makes mention of in his 2 Book Cap. 24. out of <hi>Luci<g ref="char:EOLhyphen"/>lius</hi> the old Poet, and the <hi>Lex Fannea, Emilia, Ancia, Iulia,</hi> &amp;c.) To con<g ref="char:EOLhyphen"/>temne ſuch Laws, tho in it ſelf be a civil fault only; yet in another reſpect it is a moral ſin (the Law being made) contrary both to Juſtice, Charity, Peace, Saftey, and Wel being of the common wealth.</p>
+               <p n="5">5. Who ever reſiſts the ordination of God offends God, but every offence of God is a wounding of conſcience: wherefore of neceſſity it muſt follow by the Law of contraries that we are bound in conſcience to obey the Lawes of man. He is the Miniſter of God, <hi>Rom.</hi> 13. Gods Legat and Ambaſſador: therefore what contempt he or his Laws (for both are one, the King being <hi>lex animata</hi> do ſuſtaine from us, it redoudes unto God whoſe Miniſter he is: And God takes it done to himſelf what is done to or againſt the Magiſtrat. Toutch not mine anointed.</p>
+               <p n="6">6. Every juſt and good Law flowes from the Law of God &amp; the Law of nature, as the Stream from the Fountain; And therefore hes an Intrinſick power of direction and obligation as a rule of life and manners: The deviating from which is a ſin and conſequently a wounding of the conſcience: For if conſcience be the ſence of ſin, and fear of judgment as ſome diſcribe it, tho rather by its effects then by it eſſential nature, as elſe where I ſhall make evident: then it is certain what ever induces to ſin concernes conſcience, and brings along with it the fear of judgment; but vio<g ref="char:EOLhyphen"/>lating of a civil Law does inferr ſin; for every particular breach is a violation of the general Law of obeying the Magiſtrat, and becomes a morall ſin againſt the fifth Commandement. Therefore by the rule of contraries the civil Law doth in<g ref="char:EOLhyphen"/>fallibly bind and inevitably oblidge the conſcience.</p>
+               <p n="7">7. Every Law is either contrary to the will of God or conforme to it, every Law is either juſt or unjuſt; But herein we muſt cautiouſly obſerve a twofold injuſtice, either intrinſick or extrinſick. The intrinſick is, when the mater of the Law it ſelf is injuſt. The extrinſick is when a thing intrinſically juſt in it ſelf may be unjuſtly com<g ref="char:EOLhyphen"/>manded and impoſed upon me. The firſt only takes away the obligation to obedience, as diſſolving the intrinſick ty of conſcience: for ſuppoſe a Prince ſhould command ſomething that in it ſelf were not unjuſt, meerly to pleaſe his own ambitious Tyran<g ref="char:EOLhyphen"/>nical or covetous humor, that indeed would be unjuſt on his part; but I and every other ſubject were oblidged to obey, tho he ſhould ſinne in commanding, yet I ſhould ſinne if I obeyed it not. But on the other hand no humane Laws that on the
+<pb n="26" facs="tcp:175009:16"/>
+matter are unjuſt, can obleidge the conſcience, for it is better to obey God than man. From whence we may draw this invincible argument, from the intrinſick na<g ref="char:EOLhyphen"/>ture of reaſon it ſelf, that no man at one and the ſame time can be oblidged to con<g ref="char:EOLhyphen"/>tradictories: but if a man were oblidged to performe ane unjuſt Law, he ſhould be oblidged in conſcience to that, to the not performance whereof the Law of God oblidges him. And to performe and not performe are contradictories. Whereas humane Laws in things juſt, oblidge the conſcience by a ſupervenient obligation to the Law of God, for <hi>obligatio prior tollit poſteriorem.</hi>
+               </p>
+               <p>But on the other hand, if Laws be enacted by theſe who are not inveſted with law<g ref="char:EOLhyphen"/>full power, then they do not oblidge the conſcience, no more then a Sentence given by one who is no judge, can oblidge the party to performance: for where the power is wanting, the efficient cauſe of the obligation is wanting alſo.</p>
+               <p n="8">8. We muſt diſtinguiſh betwixt a direct and indirect, a mediat and immediat obligation: we doe confeſſe the Lawes of man do not immediatly and directly oblidge the conſcience, but by vertue of Gods command requiring to give obedience to the Magiſtrat and his Laws, under the paine of Gods wrath and diſpleaſure. We are bound to performe civil duties on grounds of Religion; and ſo humane Laws tho not <hi>qua humane</hi> binds the conſcience. Its Gods command binds my conſcience to obſerve mans, as ye ſee it clearly and expreſſely, <hi>Eccleſ.</hi> 8:21. I Counſel you to keep the Kings commandement, and that in regarde of the Oath of God. It would be a very Fanatick <hi>theſe,</hi> to affirme, that a Childe is not bound in conſcience to do any Lawfull thing which his Father commands him, <hi>Id eſt, totidem verbis,</hi> it is not his dutie, becauſe perhaps <hi>totidem Syllabis,</hi> it is not contained in the Scripture. But certainly, ſecundarly and conſequentially, with reſpect unto Gods general com<g ref="char:EOLhyphen"/>mand, he is bound in conſcience to do that for his Fathers command which he was not bound to undertake without it. See this fully aſſerted and cleared by <hi>
+                     <g ref="char:V">Ʋ</g>rſine</hi> in his <hi>Explicatio Catechetica, queſt.</hi> 69. And in <hi>Loci Theologici in pree.</hi> 2. <hi>de cultu Dei.</hi> So <hi>Pareus, edicta Magiſtratûs obligant conſcientias.</hi> So <hi>Alſtedius, ut ſupra.</hi> But above all moſt particularly and fully the learned Biſhop <hi>Sanderſon, de obligatione conſcienciae,</hi> and Biſhop <hi>Taylor,</hi> in his <hi>Ductor Dubitantium, Lib.</hi> 3. <hi>Cap.</hi> 1. rule 1. and 5., and Chap. 4. rule 5. <hi>Vide</hi> Falkner, in his <hi>Libertas Eccleſiaſtica Lib.</hi> 2. <hi>Cap.</hi> 1. <hi>Section</hi> 7. <hi>Par.</hi> 6.</p>
+               <p>But here we muſt take along with us theſe three caveats: firſt it muſt be acknow<g ref="char:EOLhyphen"/>ledged, that no humane authority can bind the judging power of conſcience, ſo that it is oblidged to judge that a dutie which is commanded without having a liberty to conſider its lawfulneſſe. 2. The Laws of man does not ſo illimitedly bind. I muſt obey God on the bair ſight of his will, but I may examine the Lawes of man, whither they be juſt and equall, and ſuited to the publick ſafety, as <hi>Acts</hi> 9:29. 3. As not ſo illimitedly nor ſo immediatly; ſo neither does humane Lawes ſo abſo<g ref="char:EOLhyphen"/>lutly bind the conſcience. For Gods command binds even in Secret, and that perpe<g ref="char:EOLhyphen"/>tually, and to active obedience too: but the Law of man may be obey'd by ſuffering the penalty, yea in private where there is no ſcandall nor danger of contempt of au<g ref="char:EOLhyphen"/>thority, I may do the contrary, eſpecially in things in themſelves indifferent. Where<g ref="char:EOLhyphen"/>fore, when it is ſaid <hi>Iam.</hi> 4. and 12. There is only one Law-giver, it muſt be under<g ref="char:EOLhyphen"/>ſtood, one only abſolute and ſupream, whoſe will is the rule of Juſtice; the Magiſtrats
+<pb n="27" facs="tcp:175009:16"/>
+under him being but deputes and ſubſtitutes reſponſable ſtill to their Superior, 2 Chron. 19:6. Take head what you do, for you judge not for man but for the Lord.</p>
+               <p>
+                  <hi>Aquinas</hi> handling this ſame very queſtion <hi>primâ ſecundae queſt.</hi> 96. <hi>art.</hi> 4. deter<g ref="char:EOLhyphen"/>mins it, as we have done in the affirmative, <hi>juſtae leges humanae obligant homines in foro conſcienciae, ratione legis aeternae à quâ derivantur.</hi>
+               </p>
+               <p n="9">9. Therefore, any Law of the Magiſtrat that wants the Authority of Gods Law to confirme it, is null, and ought not to be obeyed. But being a thing or matter indiffe<g ref="char:EOLhyphen"/>rent, the Lawfullneſſe of it is determined to me by that particular Law, which is derived from the general Law of obeying theſe in Authority. Yea even theſe ſame things in caſe of ſcandal, will bind us to obedience, tho not in caſe of conſcience ſimplie conſidered, as is clear in our Saviours paying Tribute, <hi>Mat.</hi> 17:27. Rather then any ſcandall ſhould have ariſen. So <hi>Abraham</hi> gave <hi>Lot</hi> his choice of the Coun<g ref="char:EOLhyphen"/>trey, tho he might otherwayes have diſputed his right.</p>
+               <p>The laſt is the efficacie of this obligation; and it ariſes from the nature of con<g ref="char:EOLhyphen"/>ſcience it ſelf, which being ſo intimat with every man, ſo important ane enemy, and ſo worthy and true a friend, a faithfull admoniſher, a ſad accuſer, a ſevere witneſſe, an uncorrupt judge, conſidering that it accuſes to him, who is the dreadfull judge of all the Earth, whoſe wiſdome cannot be deceived, nor his Juſtice bribed or cor<g ref="char:EOLhyphen"/>rupted; the Execution of whoſe Sentence can neither be ſuſpended nor avoyded, ſo that upon the one hand this meditation obviats all grounds of rebellion, diſcontent, pride, ambition, covetouſneſſe and hypocriſie, and overawes a man in the firſt riſe of theſe corruptions, deſtroying the Cockatrice in the Egg; ſo on the other hand, it manifeſts, that horror and anguiſh muſt be a Traitors portion both here and hereafter.</p>
+               <p>
+                  <hi>(His opprobrious Kirk)</hi> of King <hi>Iames</hi> its known to all that knows his Hiſtorie, how opprobriouſly the Kirk-men uſed him; not only moleſting and contemning, but counteracting him on every occaſion. When he appointed a Feaſt, they appointed a Faſt, <hi>&amp; è contra.</hi> And after all their Pranks, they openly ſcorned to anſwer his tribu<g ref="char:EOLhyphen"/>nall, contrarie to the practice of Chriſt and Saint <hi>Paul,</hi> both before Jews and Hea<g ref="char:EOLhyphen"/>then Magiſtrats. But alace Chriſt and Saint <hi>Paul</hi> were both Epiſcopall. The juriſ<g ref="char:EOLhyphen"/>diction of their Kirk was Paramount to all his decrees: Yea in his <hi>Baſilicon Doron</hi> he tells how they perſecuted him even before he was born, &amp; all along till he came to the Throne: And when he was gloriouſly ſeated there, the only Eclipſe of his glory was from the Kirk. One paſſage whereof I cannot omitt, which will indeed juſtifie my Epithet of that Kirk. <hi>Crebrae adverſus me in concionibus calumniae ſpargebantur, non quòd crimen aliquod deſignaſſem, ſed quia Rex eram, quòd omni crimine pejus habeba<g ref="char:EOLhyphen"/>tur.</hi> That they conſtantly reviled and reproached him, not only in their private con<g ref="char:EOLhyphen"/>venticles, but in their publick Preachings, not for any crime he had done or inten<g ref="char:EOLhyphen"/>ded to do, but becauſe he was a King, which in their opinion was the worſt of all crimes. And this they made evidently appear in the Perſon of his Son, that incom<g ref="char:EOLhyphen"/>parable Prince and bleſſed Martyr, of whom we may ſay according to the Letters on his Coffin, C. R. I. <hi>Clementia Religioſa interfecit.</hi>
+               </p>
+               <q>
+                  <l>Here lyes the only King ſince Chriſt did die,</l>
+                  <l>Was murthered for his pious clemencie.</l>
+               </q>
+               <p>
+                  <pb n="28" facs="tcp:175009:17"/>It was they broke his Scepter in pieces, by throwing the Militia out of his Royal hands; that tore the Crown off this head; baffled his ſupremacie; barrd him the ve<g ref="char:EOLhyphen"/>ry liberty of his conſcience in the point of Church Government, which he believed and ſtrongly defended, to be <hi>jure divino Epiſcopal.</hi> And would have him to acknow<g ref="char:EOLhyphen"/>ledge himſelf guiltie of all the blood they had ſpilt. And after they had hunted him like a Partridge on the Mountains, at laſt ſurprized and murthered him in his own Houſe. It was the Presbyterians held him by the Hair, as he who wrote the Hiſtory of Independency well obſerves, till the Independents (a kind of <hi>Synonymous</hi> word for one thing) cut off his head.</p>
+               <q>
+                  <l>Pudet haec opprobria nobis</l>
+                  <l>Et dici potuiſſe &amp; non potuiſſe refelli. <hi>Ovid.</hi>
+                  </l>
+                  <l>We're ſham'd that ſuch a Tainture ſhould be laid</l>
+                  <l>Upon theſe Lands that cannot be gainſaid.</l>
+                  <bibl>
+                     <hi>Sandys Ovid. Met. 2.</hi>
+                  </bibl>
+               </q>
+               <p>
+                  <hi>Lin.</hi> 10 <hi>(Ioyned with Soveraignity)</hi> ſo <hi>Diotogenis Pythagorici verba apud Stobeum, anagkaton teleion basilea strategonte agthaon hemen kai dikasten kai hierea.</hi>
+               </p>
+               <p>
+                  <hi>Lin.</hi> 11. <hi>(So Numa) Livius lib.</hi> 1. <hi>De Numa tum ſacerdotibus creandis animum ad<g ref="char:EOLhyphen"/>jecit, quanquam ipſe plurima ſacra obibat.</hi> And a little after, <hi>Flaminem Iovis aſſi<g ref="char:EOLhyphen"/>duum ſacerdotem creavit:</hi> Julius Caeſar <hi>Pontifex maximus fuit; Suet. in</hi> Julius <hi>Cap.</hi> 13. And <hi>Auguſtus Suet. in Octavius</hi> 31. <hi>Pontificatum maximum ſuſcepit:</hi> And a little after, <hi>Sacerdotum &amp; numerum &amp; dignitatem ſed &amp; commoda auxit.</hi>
+               </p>
+               <p>
+                  <hi>Lin.</hi> 12. (Malabar <hi>in the Eaſt) Ferdinandus Lopez Lib.</hi> 1. <hi>Hiſtor. Indicarum.</hi> But to come nearer home, the learned Doctor <hi>Baſier</hi> in his Book of the liberty of the <hi>Bri<g ref="char:EOLhyphen"/>tannick</hi> Church, in that part that he hes from Father <hi>Barns,</hi> makes it out from Authen<g ref="char:EOLhyphen"/>tick Chronicles and Hiſtories, and ſtatutes alſo within themſelves, that the Kingdom of <hi>England</hi> hath been ane entire Empire Governed by one head, ſupream both in ſpi<g ref="char:EOLhyphen"/>ritualls and temporalls. And this he makes out by eighteen ſeveral inſtances in ſta<g ref="char:EOLhyphen"/>tutes by <hi>Kenulphus, Edward</hi> the Confeſſor, <hi>Edward</hi> the firſt, the third, the fourth, <hi>Richard</hi> the third, <hi>Richard</hi> the ſecond, juſtifying the Act of <hi>Henry</hi> the eight; That it was according to the ancient ſupremacy of all the Kings of <hi>England</hi> over all Perſons and in all cauſes whatſomever, aswell Eccleſiaſtick as temporal.</p>
+               <p>
+                  <hi>Lin.</hi> 20. (Miſhpat Hameleck.)</p>
+            </div>
+            <div n="4" type="chapter">
+               <head>
+                  <hi>CHAP. IV.</hi> What is the meaning of the <hi>Miſhpat Hameleck</hi> amongſt the Iews, the <hi>jus Re<g ref="char:EOLhyphen"/>gium:</hi> or the nature of the Prerogative Royall.</head>
+               <p>WHat this <hi>Miſhpat Hameleck</hi> was, I find it mightily debated amongſt the lear<g ref="char:EOLhyphen"/>ned: ſome will have it to be <hi>jus Regium,</hi> others only <hi>conſuetudo Regia,</hi> the one the allowance and ordinance of God, the other the Uſurpation and Tyranny of man, the greateſt bleſſing or ſcourge that either the mercy or Juſtice of God ſends to man<g ref="char:EOLhyphen"/>kind. The firſt and chief place we read of it, is 1 <hi>Sam.</hi> 8:11. where we have it tran<g ref="char:EOLhyphen"/>ſlated the manner of the King, in <hi>Deut.</hi> 17:16. we have the Kings power and Pre<g ref="char:EOLhyphen"/>rogative
+<pb n="29" facs="tcp:175009:17"/>
+deſcribed by God himſelf, but it is not termed there the <hi>Miſhpat.</hi> And how to underſtand it here is thought a very knotty and puzeling difficulty: The perplexi<g ref="char:EOLhyphen"/>ty whereof lyes in this, that either de jure, the Kings of <hi>Iſrael,</hi> and in them all other Princes ought to do after the manner there deſcribed; But this we ſee is directly contrary to the duty of a King preſcribed by God himſelf in <hi>Deut.</hi> 17:16. He ſhall not multiply Horſes, but here in 1 <hi>Sam.</hi> 8:11. we have mention made of <hi>Chariots</hi> and Horſe-men in multitudes, which cannot be without multitudes of Horſes, <hi>Deut.</hi> 17:17. Ye ſhall not multiply Silver or Gold: but here <hi>verſſ.</hi> 14, 15, 16. He ſhall take your Fields, Servants, your Vine-yeard, your Cattell, and diſpoſe of them to his minions and attendants: <hi>Deut.</hi> 17:20. He muſt not be proud; but here <hi>v.</hi> 17. All muſt be his Servants and run and walk as he pleaſes, <hi>Ezek.</hi> 45:9. Take away your exactions from my people. And Chap. 46:18. The Prince ſhall not take of the peoples inheritance to thruſt them out of their poſſeſſions: Here we find the quite contrary. Their Fields, their Vine-yeards, their Sones, their Sheep, their Servants and all to be diſpoſed of by him at his pleaſure. Yea by the Law of God the <hi>Levits</hi> were to have the tenths as peculiar to them.</p>
+               <p>On the other hand, if it be ſaid, that it only contains a prediction, that <hi>de facto</hi> they ſhould be ſo treated by their Kings, on the quite contrary, we do not read in all the Books and Chronicles of the Kings of <hi>Iudah</hi> or <hi>Iſrael,</hi> that they did proceed thus farr as it is here expreſt. Yea even <hi>Achab</hi> that was one of the moſt wicked amongſt them all, a man that ſold himſelf to work wickedneſſe, yet he did not take <hi>Naboths</hi> Vine-yeard by force, 1 <hi>Kings</hi> 21:25. but by <hi>Iezabells</hi> craft, and wicked Policy, it was pretended to be legally Forſaulted; tho the taking away of Vine-yeards is expreſ<g ref="char:EOLhyphen"/>ſely mentioned here as a part of the <hi>Miſhpat Hameleck,</hi> or the <hi>jus Regium.</hi>
+               </p>
+               <p>This difficulty has being looked on by a great many learned men, ſo inextricable, that it hes made them think, that God is only here deſcribing the manner of the Heathen Kings that know not God, that ſo he might deferr them from ſeeking a King; or at the leaſt that he was angry that they ſought ſuch a King as the other na<g ref="char:EOLhyphen"/>tions had, not ſuch a King as God allowed them, as was deſcribed in <hi>Deut.</hi> 17. but this is expreſſely againſt the very words of <hi>Deut.</hi> 17:14. likeas all the nations have about me. Others are of opinion that he deſcribes not here what Kings ſhould or may do, but that they ordinarly degenerat into Tyranny, and this is their Cuſtome ſo to do. And we ſee the word <hi>Miſhpat</hi> is many times tranſlated Cuſtome and man<g ref="char:EOLhyphen"/>ner, <hi>Iudg.</hi> 18:7. Carleſſely after the manner of the <hi>Zidonians Pemiſhpat, Gen.</hi> 40. <hi>vers</hi> 13. Former manner when thou was buttler, <hi>Exod.</hi> 21:9. 1 <hi>Sam.</hi> 27:11. 2 <hi>Kings</hi> 11:14. 2 <hi>Kings</hi> 17:29. <hi>Pſal.</hi> 119:131. As thou uſed to do, in the origi<g ref="char:EOLhyphen"/>nall is according to thy manner and Cuſtome. So that the Cuſtome of Tyrants (ſay they) is only here deſcribed. Of this opinion is <hi>Bartoldus de regimine civili Num.</hi> 4. <hi>Bodinus de Republica Cap.</hi> 10. Melancton <hi>in Philoſophia morali pag.</hi> 197. Brentius <hi>Hom. in</hi> 1 <hi>Sam.</hi> 27. Oſiander <hi>h. l.</hi> Pezelius <hi>part. ult. object. pag.</hi> 999. Zepperus <hi>in explicatione legum Moſaicarum Lib.</hi> 4. <hi>Cap.</hi> 8. Toſſanus <hi>in notis, hoc loco:</hi> Roſſius <hi>de Chriſtianae Reipublicae poteſtate ſupra reges Cap.</hi> 2. <hi>Com.</hi> 103. <hi>and</hi> Hunnius <hi>in reſolut. diſp. vol.</hi> 1. <hi>pag.</hi> 73.</p>
+               <p>But with reverence to ſo great authority and ſo great ſemblance of reaſon <hi>nullius addictus jurare in verba,</hi> I take leave to diſſent, and that I may more clearly expreſſe
+<pb n="30" facs="tcp:175009:18"/>
+my own opinion, I premit theſe two diſtinctions. 1. We muſt carefully diſtin<g ref="char:EOLhyphen"/>guiſh betwixt a Kings Crown and his coveteouſneſſe. If any covetous Kings there be, they certainly are the perfect emblems of miſerable happineſs, and rich beggary. But ſay, a King out of an avaritious luſt ſhould gripp the goods, and ſeaze on the poſſeſſions and Lands of his Subjects for his own private Intereſt, certainly he doeth Tyrannically and unjuſtly: but if, for the ſafety and advantage of the common wealth, this is one of the rights of the Crown, to make uſe of the ſubjects goods for that end.</p>
+               <p n="2">2. We muſt alſo diſtinguiſh betwixt the manner and meaſure of the thing, and the thing it ſelf. The King may for the neceſſity of the common-wealth, and peace and ſafety of the ſubject, exact their ſervice and goods, if not done in a violent man<g ref="char:EOLhyphen"/>ner, nor exacted in ane exorbitant meaſure, not for his own private gaine and ad<g ref="char:EOLhyphen"/>vantage, but for the good of the community whereof he is the head. Now in ſuch a caſe all things that belongs to the ſubject, they belong alſo to the power and au<g ref="char:EOLhyphen"/>thority of the King, and he may make uſe of them, obſerving that due meaſure (in the neceſſity or advantage of the community) by his prerogative Royal, with<g ref="char:EOLhyphen"/>out incurring the odious name and imputation of a Tyrant. This is <hi>Lyra's</hi> judgment in his Commentarie on this place of <hi>Samuel,</hi> as it is Lawfull (ſayes he) for a man to cut or mutilat himſelf, to cut off a Hand or a Legg, for the preſervation of the whole body; ſo may a King Lawfully make uſe of the ſubjects wealth in the time of neceſſity. And this I take to be the proper meaning of the <hi>Miſhpat Hameleck</hi> in 1 <hi>Sam.</hi> 8:11. That a King not only <hi>de jure</hi> may, but will in caſe of neceſſity require the goods of his ſubjects without any ſuſpition of Tyranny or oppreſſion: And my arguments for this my opinion are.</p>
+               <p n="1">1. Becauſe as I find the word <hi>Miſhpat</hi> tranſlated here, and elſe where, manner and Cuſtome, ſo I find it alſo oftentimes tranſlated Judgment, Statute, Law, or Right. Judgment or Right from <hi>Shapat, judicavit,</hi> therefore may be tranſlated the Kings Right or Prerogative Royal, for this is its moſt proper ſignification, as its original imports, ſo <hi>Iudg.</hi> 16:31. He judged <hi>Iſrael</hi> twenty years, <hi>Id eſt, Rex erat qui jure &amp; juſtitia vindicaverat:</hi> As <hi>Buxtorf</hi> on the word <hi>Shapat pag.</hi> 838. And ſo in many other places there cited, to which I referre the doubter. And the word <hi>Miſhpat</hi> is taken many times ſo, <hi>Pſal.</hi> 105:5. <hi>Ier.</hi> 4:12. <hi>Pſal.</hi> 72:1. The word ſignifies both the Sentence of a Judge and the Right that is done to a man by that Sentence, as is obſerved by the excellent <hi>Druſius</hi> on <hi>Ioel</hi> 3:2. This being its moſt proper ſignification, but the word Cuſtome and manner but Metaphoricall, there is great reaſon, we ſhould rather read it the Kings Right, and accordingly the <hi>Vul<g ref="char:EOLhyphen"/>gar</hi> hes turned it <hi>jus Regis:</hi> And <hi>Iunius</hi> and <hi>Tremellius,</hi> 1 <hi>Sam.</hi> 10:25. which we call the manner of the Kingdom, hes turned it <hi>jus Regni,</hi> ſo we read of a place <hi>Gen.</hi> 14:7. called <hi>Enmiſhpat,</hi> the Fountain of Judgment, as the King may properly be called. And the ſeptuagint turns this <hi>Miſhpat</hi> into <hi>dikaioma tou basileos;</hi> which word <hi>dikaiomad</hi> if we beleeve <hi>Beza</hi> on <hi>Rom.</hi> 1:32. will ſignifie ſometime <hi>legem natu<g ref="char:EOLhyphen"/>rae, vel jus gentium.</hi>
+               </p>
+               <p n="2">2. Conſider we, what it was the Iſraelites ſought, it was not a Tyrant but a King, <hi>Reſcripta ſunt interpretanda juxta petita,</hi> according to the rule in the civil Law, except we would ſay of God according to that <hi>Mat.</hi> 7:10. when we Aſk a
+<pb n="31" facs="tcp:175009:18"/>
+Fiſh, he will give us a Serpent which is horrid blaſphemy.</p>
+               <p n="3">3. Why ſhould <hi>Samuel</hi> ſay, this was the peculiar maner of Kings? Is not this the cuſtome of any other judges and Magiſtrats as well as of Kings, to degenerat ſome times, and be Tyrannical? as we ſee what <hi>Iotham</hi> ſayes of <hi>Abimeleck Iudg.</hi> 9:14. That he was become a Bramle in ſtead of a Vine. See alſo what was ſaid of the Sons of <hi>Eli</hi> and <hi>Samuel,</hi> that were no Kings, 1 <hi>Sam.</hi> 2:16. That they turn'd cruel, Tyrannical, Baſe and oppreſſive, ſo that men abhorred the Offering of the Lord, 1 <hi>Sam.</hi> 8:3. Its ſaid of his Son that he turned aſide after <hi>Lucre,</hi> took brybes and perverted judgment. Why then ſhould this be called the maner of Kings only, ſince it's alſo incident to inferior Magiſtrats, and perhaps much more?</p>
+               <p n="4">4. I would gladly know, if by the maner of the King and Kingdom, 1 <hi>Sam.</hi> 8. <hi>verſſ.</hi> 11. and 10. and 25. Any thing that is unjuſt and unlawful be mean'd, as Ty<g ref="char:EOLhyphen"/>ranny and oppreſſion, as in their opinion the words muſt needs importe. Do they think that the excellent <hi>Samuel</hi> ſhould have taken the paines to have written theſe unjuſt Laws in a Regiſter, and laid them up beſide the Ark of the Covenant? Or rather if we believe <hi>Ioſephus lib.</hi> 6. <hi>antiquit. Iud. Cap.</hi> 5. in the Ark it ſelf, for a per<g ref="char:EOLhyphen"/>petual memorial. Nay he is ſo juſt a judge, would have rather cauſed burn and deſtroy all theſe monuments of iniquity: Wherefore this <hi>Miſhpat Hameleck</hi> cannot be rationally ſuppoſed to involve any Tyrannical exactions or oppreſſion of the Peo<g ref="char:EOLhyphen"/>ple, as they expone it. <hi>Samuel</hi> to make a Law for oppreſſion, a man both wiſe and holy, and to conſigne it to that publick and holy repoſitory, being a monument of iniquity, to preſerve it to the knowledge and uſe of the poſterity, I hope ſcarce any ſober man will be induced to admit it amongſt the leaſt atomes of his be<g ref="char:EOLhyphen"/>liefe.</p>
+               <p n="5">5. I would know in effect, if <hi>David, Salomon</hi> and all the reſt of the Kings of <hi>Iudah</hi> and <hi>Iſrael</hi> did not all this that is here expreſt; And yet no where, are accuſed of Tyranny. Had' not they their Tables in times of peace, magnificently and ſplendid<g ref="char:EOLhyphen"/>ly furniſhed, which is intimat here by taking their Sons and Daughters to be con<g ref="char:EOLhyphen"/>fectioners and Cooks? Had not they in time of war their Horſes, Chariots, Foot<g ref="char:EOLhyphen"/>men, and Captains, and Souldiers of all ranks? And what diſparadgment is that, to be the Kings Servants, who himſelf is the repreſentative of God unto us? And by the way we have a remarkable inſtance of this in <hi>Salomon,</hi> who 2 <hi>Chron.</hi> 9:25. Is ſaid to have had 4000 Stalls for Horſes, and the 1 <hi>King.</hi> 4:26. He is ſaid to have had fourty thouſand Stalls for Horſes; the word tranſlated <hi>Stalls</hi> is different in the Original, yet only a <hi>Iod</hi> added: And ſignifies either a particular ſtanding for one Horſe, or elſe a Stable having in it many ſuch ſtanding places. Tho I have heard ſome Fools bogle at this, yet it may be reconciled, conſidering 4000 Stables with ten Stalls a piece, and each holding ten Horſes will make juſt fourty thouſand. We read alſo 2 <hi>Chron.</hi> 1:14. He had 1400 Chariots, and 12000 Horſe-men that atten<g ref="char:EOLhyphen"/>ded him in State. But conſider with me, what a laborious and vaſt work he had in building of the Temple of God, and of his own Palaces? And how many Horſes that great work would need? And how many Queens and Concubins he had, and what a number of attendants both of pride and neceſſity they would require? Or conſider alſo, how provident, ſo wiſe a man would be in caſe of warr: In which caſe we read the <hi>Philiſtins</hi> brought to the Field 1 <hi>Sam.</hi> 13:5. thirty thouſand Cha<g ref="char:EOLhyphen"/>riots,
+<pb n="32" facs="tcp:175009:19"/>
+and would <hi>Salomon</hi> think you be behind with them, on theſe conſiderations? It had been unjuſt to have imputed that to <hi>Salomon</hi> either as Tyranny or oppreſſion: But certainly rather it was the <hi>jus Regium</hi> his prerogative Royal, to have and main<g ref="char:EOLhyphen"/>taine them. And altho in the moſt ſtrict ſence, theſe things be the Kings preroga<g ref="char:EOLhyphen"/>tive, yet good and gracious Kings make uſe only of their prerogatives as Chriſt did of his Miracles, meerly in caſes of neceſſity, and for the publict good, to which they will make their Pomp and State ſubſervient.</p>
+               <q>
+                  <l>Omne culmen attigit</l>
+                  <l>Virtutis altae, qui timeri ſe timet;</l>
+                  <l>Amore fidens, qui patrem ſe non herum</l>
+                  <l>Studet Vocari. <hi>Baudius.</hi>
+                  </l>
+               </q>
+               <p>And for theſe paſſages of <hi>Ezekiel,</hi> of <hi>Achab,</hi> and the tenths beſtowed on the <hi>Levits;</hi> they are eaſily anſwered by what is ſaid allready. For 1. that of <hi>Ezekiel</hi> is, thou ſhall not take away the poſſeſſion of the ſubject, by oppreſſion; not, in caſe of neceſſity, and conveniency of State. Therefore <hi>Ezek.</hi> 44:9. what in one part of that ſame verſe is called exactions, in the other it is called violence and ſpoile: There exacti<g ref="char:EOLhyphen"/>ons being neither with juſtice nor moderation, <hi>Ezek.</hi> 46:18. Its alſo clear as the Beames of the Sun, the Prince ſhall not take the inheritance of the People by op<g ref="char:EOLhyphen"/>preſſion, which is expreſſely added, importing in point of neceſſity, he may do it, and be neither Tyrant nor Robber: For <hi>Achab</hi> all the World knows it was only his luſtfull and covetous humor he gratified, not minding the benefite of the common-wealth. And for the tithes of the Levits, Its known that it was not a ceremonial precept, but morall founded on the judgment of right reaſon, according to the Law of nature it ſelf. And therefore cannot be in it ſelf unlawfull, nature teatching us that a publick Perſon ſhould be ſerved of the publick. And therefore tribute <hi>jure divino</hi> belongs to the publick Magiſtrat, <hi>Mat.</hi> 17:25. and 22. and 15. <hi>verſſ.</hi> There<g ref="char:EOLhyphen"/>fore all things both Sacred and civil muſt be ſerviceable to the publick benefit. This I take to be the true meaning of this <hi>Miſhpat Hameleck.</hi>
+               </p>
+               <p>But if we ſpeak particularly of the prerogative Royal, <hi>Iuſtinian</hi> makes it to con<g ref="char:EOLhyphen"/>ſiſt in theſe three, the power of things Sacred, the power of the publick good, and the power of denuncing warr. <hi>Bodinus</hi> in his Book de <hi>Republica lib.</hi> 1. <hi>cap.</hi> 10. ex<g ref="char:EOLhyphen"/>tends it to theſe five, 1. The power of making and abrogating Lawes, 2. Supre<g ref="char:EOLhyphen"/>macy of juriſdiction, from which can be no appeal, 3. Power of eſtabliſhing all inferior Magiſtrats, and Officers of State, 4. Impoſition and exaction of tribute, 5. The power of warr, To which <hi>Arniſeus</hi> adds the right of publick wayes, navi<g ref="char:EOLhyphen"/>gable Rivers, mines of Gold and Silver, and any thing that hes no particular owner, that it ſhould belong to the common Maſter; as hunting, confiſcation, coyning of money, <hi>Arniſeus lib.</hi> 2. <hi>de jure Majeſt. cap.</hi> 1. <hi>n.</hi> 8. Neither will any that remem<g ref="char:EOLhyphen"/>bers we ſwear in the Teſt to defend the Kings prerogatives (we hope) think this di<g ref="char:EOLhyphen"/>greſſion impertinent: To which we ſhall add the Golden obſervation of <hi>Chryſoſtome</hi> upon <hi>Rom.</hi> 13. That to leavy money, and exact ſtents for the publick good is the peculiar prerogative of the Crown; and therefore ſayes he, the Apoſtle ſayes not, give tribute, but <hi>verſ.</hi> 7. render tribute, render Cuſtome, <hi>non dicit date</hi> but <hi>red<g ref="char:EOLhyphen"/>dite:</hi> For the ſubject <hi>nihil gratuito dat, debitum ſiquidem eſt res iſta: quod ſi non
+<pb n="33" facs="tcp:175009:19"/>
+feceris perfidi poenas dabis.</hi> The ſubject gives nothing to the King; its debt, which if he refuſe, he deſerves to be puniſhed as a falſe Traitor.</p>
+               <p>But to ſpeak yet more particularly of the Royal prerogative in the moſt part of all Nations: We begin with the Jews whoſe Royal prerogative (as we have ſeen) is ſet down particularly in <hi>Deut.</hi> 17. and 1 <hi>Sam.</hi> 8. tho contradicted by learned men; to whom forecited we are not yet afraied to add Saint <hi>Gregorie, Cajetan, Abulenſis,</hi> and <hi>Vatablus</hi> on the place, and even <hi>Aquinas</hi> too, who in his Book <hi>de regimine principis Cap.</hi> 11. is expreſſely againſt our interpretation, and in his <hi>Summs, primâ ſe<g ref="char:EOLhyphen"/>cundae queſt.</hi> 6. <hi>Art.</hi> 1. in anſwer to the fifth objection. <hi>Illud jus non debebatur Regi ex inſtitutione divina, ſed magis praenunciabatur uſurpatio Regum qui ſibi jus ini<g ref="char:EOLhyphen"/>quum conſtituunt, in Tyrannidem degenerantes &amp; ſubditos depraedantes.</hi> But conſi<g ref="char:EOLhyphen"/>dering that the moſt part of Papiſts are ill affected towards all Kings, as well as our Presbyterians, the one making the Pope their Presbytery, and the other the Preſ<g ref="char:EOLhyphen"/>bytery their Pope: Therefore all our Fanatick writers, as <hi>Lex Rex, Didoclavius</hi> and the reſt, hes all their arguments from Papiſts; yet we hope, we have ſaid als much for our opinion, as will abundantly ſatisfie any ſober and intelligent Reader.</p>
+               <p>To come then to particulars, we find the Law of the prerogative Royal amongſt the Jews, after that ancient one eſtabliſhed by <hi>God</hi> himſelf and promulgat by <hi>Moſes</hi> and <hi>Samuel;</hi> als fully and als amply (as can be) conſtitute in the Perſon of <hi>Simon Macabeus,</hi> 1 <hi>Macab.</hi> 14. <hi>chap.</hi> from 41. to the 45. Wherein is contained the Sanction of the Law. And the prerogatives are reckoned out to the number of twelve, which at more length may be there ſeen, and correſponds much with our own, one or two only excepted. Neither may it be objected, he was their Captain only, and not their King: For his poſterity did aſſume both the Title and Eſtate of the King without any innovating of theſe prerogatives, as is known all along their Hiſtorie. But more particularly, what the Royal prerogative amongſt the Jews was, both before and after that, may be more fully gathered from the writings of <hi>Ioſephus</hi> againſt <hi>Appion,</hi> and from his antiquities; from <hi>Mennochius, Sigoneus, Bertra<g ref="char:EOLhyphen"/>mus,</hi> and <hi>Cunaeus;</hi> to which we may add the moſt part of the writings of <hi>Hottinge<g ref="char:EOLhyphen"/>rus:</hi> all which have written fully and learnedly of the Laws and Cuſtomes of that Re<g ref="char:EOLhyphen"/>publick, but eſpecialy in his <hi>Smegma Orientale,</hi> and <hi>Epitome utriuſque juris judaici.</hi>
+               </p>
+               <p>The Royal prerogatives amongſt the Romans, are fully deſcribed by <hi>Dionyſius Halycarnaſſeus, lib.</hi> 2. which were agreed upon (as he ſayes) betwixt <hi>Romulus</hi> and the People of <hi>Rome,</hi> the care of Religion, and the Laws; The convocating of the People and the abſolute power of warr, with many others there to be read: which ſtill continued till the time of <hi>Tarquin</hi> the proud, who contemning theſe de<g ref="char:EOLhyphen"/>crees and ordinances, was deprived of his Kingdom, and baniſhed the City. What it was afterwards, may be known by <hi>Suetonius,</hi> after the death of <hi>Iulius Caeſar</hi> in <hi>Tiberius Cap.</hi> 30, 31, 32. And <hi>Tacitus Annales,</hi> eſpecially the firſt Book. And after<g ref="char:EOLhyphen"/>ward in proceſſe of time, how they were increaſed and eſtabliſhed, may be ſeen in the Commentaries of <hi>Claudius Rangolius, ordinis minimorum</hi> S. <hi>Franciſci de Paula</hi> (who hes deſcribed them in a collection from <hi>Hottoman,</hi> and <hi>Calvin</hi> Lawyers) on 1 <hi>Sam.</hi> 8:11. Yea the <hi>lex regia,</hi> as he there writes, gave a kind of infinit power to the Emperours, in all things that concerned the preſervation or amplification of
+<pb n="34" facs="tcp:175009:20"/>
+the common-wealth. To whoſe writings we may add what hes been written by <hi>Scriverius</hi> his <hi>Reſpublica Romana,</hi> and <hi>Lipſii Roma illuſtrata,</hi> and by <hi>Dion, Ap<g ref="char:EOLhyphen"/>pianus,</hi> and <hi>Pollybius,</hi> the Greek Hiſtorians; of whom it muſt be obſerved, that they wrote the <hi>Roman</hi> Hiſtory farr more impartially then any <hi>Roman.</hi>
+               </p>
+               <p n="3">3. For the Greeks their prerogative Royal, to wit, of the <hi>Lacedemonians,</hi> it is fully deſcribed by <hi>Halicarnaſſeus</hi> in his 5 Book.</p>
+               <p>Of the <hi>Macedonians</hi> by <hi>Quintus Curtius</hi> in his ſixth Book of the warrs of <hi>Alexan<g ref="char:EOLhyphen"/>der,</hi> anent the death of <hi>Philotas Parmenio's</hi> Son.</p>
+               <p>The Royal prerogative of <hi>Agamemnon,</hi> and other Princes of Grecia, may be collected from <hi>Homer.</hi> And of the whole Greeks, both their Hiſtory, and Privi<g ref="char:EOLhyphen"/>ledges may be gathered from <hi>Pauſanias,</hi> and <hi>Plutarch,</hi> eſpecially in the lives of <hi>So<g ref="char:EOLhyphen"/>lon</hi> and <hi>Lycurgus;</hi> and his Greek Queſtions. But moſt elegantly and compendiouſ<g ref="char:EOLhyphen"/>ly written by the learned <hi>
+                     <g ref="char:V">Ʋ</g>bbo Emmius de Graecorum rebus publicis.</hi> And from <hi>Poſtellus de Magiſtratibus Athenienſium.</hi> To which may be added <hi>Meurſii Athenae. Nicolai Damaſceni Hiſtoria.</hi>
+               </p>
+               <p n="4">4. The prerogative of the <hi>Egyptians, Aſſyrians,</hi> and <hi>Perſians,</hi> may be col<g ref="char:EOLhyphen"/>lected out of <hi>Herodot,</hi> and <hi>Zenophon,</hi> and <hi>Diodorus ſiculus</hi> his 2 Book, <hi>Cap.</hi> 3. But above all out of the learned <hi>Briſſonius de regio Perſarum principatu.</hi>
+               </p>
+               <p n="5">5. The prerogative of the <hi>Germans</hi> out of <hi>Tacitus de moribus Germanorum.</hi>
+               </p>
+               <p n="6">6. Of the <hi>French,</hi> out of <hi>Caeſar de bello Gallico, lib.</hi> 7.</p>
+               <p>Out of all which by a judicious and ſerious Reader might be collected a full com<g ref="char:EOLhyphen"/>plete Volume of the prerogatives of all Nations: Which if it be yet done, in whole, or in part, I know not; Only I could wiſh this would animat the gene<g ref="char:EOLhyphen"/>rous attempt of ſome learned head: but this being the work rather of a Lawyer, then a divine, and not belonging to our deſign but by way of annotation, and digreſ<g ref="char:EOLhyphen"/>ſion, Let theſe few remarckes ſuffice.</p>
+               <div type="section">
+                  <head>An Appendix concerning the Kings Treaſure, as a conſequent of his Prerogative.</head>
+                  <p>HE that walkes on the Battelments of Soveraignity had need of ſome maſſy weight to keep him ſteddy. A poor Governour (as <hi>Euripides</hi> ſayeth) being a ſcorn to Authority, and a burden to the People. Wherefore in all ages to ſupport their Pre<g ref="char:EOLhyphen"/>rogative either in peace or warr, it hes been the laudable Cuſtome of all Kings to maſſe up a great ſtore of treaſure. Hence nothing ſo celebrated amongſt all Authors as the <hi>Gaza Perſica, Quintus Curtius</hi> in his 5 Book deſcribs it, and <hi>Iſod. lib.</hi> 20.9. and the 70 retain ordinarly the word <hi>Gaza,</hi> as <hi>Eſth.</hi> 4:7. <hi>Haman</hi> vow'd to pay ten thou<g ref="char:EOLhyphen"/>ſand Talents of Silver to the Kings treaſure, which in <hi>Engliſh</hi> money will amount to three millions fifty thouſand and ſeven hundreth pounds, ô Pride! O Revenge! How dear gueſts are ye? <hi>Pomponius Mela</hi> in his firſt Book of Geographie confounds <hi>Gaza</hi> a Town in <hi>Paleſtin</hi> with <hi>Gaza</hi> a treaſure, or at leaſt ſayes he, the one had the name from the other, not conſidering, that <hi>Gaza</hi> a Town with the Hebrews is wri<g ref="char:EOLhyphen"/>ten with <hi>Hajin,</hi> a treaſure with <hi>Gimel.</hi> In the Scriptures alſo we read of the trea<g ref="char:EOLhyphen"/>ſures of <hi>Egypt;</hi> The treaſures of the Kings of <hi>Iſrael</hi> and <hi>Iudah,</hi> 2 <hi>Kings</hi> 18:15. and 20:13. and 39:2, 4. 2 <hi>Chron.</hi> 36:18. <hi>Ezeck.</hi> 28:4. <hi>Dan.</hi> 11:43. <hi>Neh.</hi> 13:12.</p>
+                  <p>
+                     <pb n="35" facs="tcp:175009:20"/>The Latine word <hi>Theſaurus,</hi> imports the providence of a Prince, <hi>eis-aurion tithenai,</hi> to lay up ſomething for to morrow. See <hi>Scaliger</hi> derives <hi>aurum,</hi> from <hi>oorein</hi> cuſtodire. They have other two words alſo, <hi>Fiſcus, And aerarium:</hi> But with this difference (as <hi>Budeus</hi> obſerves) that <hi>aerarium</hi> is <hi>pecunia publica imperii,</hi> but <hi>Fiſcus</hi> is <hi>pecunia Imperatoris. Fiſcus a Fiſu: quod eo ad vitam degendam ſubſidio, homines fidere ſoleant.</hi> As in the Hebrew, <hi>Mammon</hi> from <hi>Emunah, fides.</hi> The word <hi>aerarium</hi> is from <hi>aes, aeris,</hi> becauſe the firſt money uſed by the Romans was Braſſe, as <hi>Plin. lib.</hi> 3. <hi>cap.</hi> 33. and their caſting their Accompts was likewiſe with Braſs pieces, which we call Compters, called by the Ancients <hi>aera.</hi> Of this way of compting, and of the <hi>aera</hi> a Reckoning, ſee <hi>Scaliger de emendatione temporum lib.</hi> 5. Where he alleadges what they called <hi>aera,</hi> we now call <hi>item.</hi> The Scripture makes mention not only of the treaſures of Heathen Princes, as <hi>Ezra</hi> 5:17. and 6:1. But alſo God allowed a treaſurie in his Church <hi>Mark.</hi> 12:41. <hi>Luk.</hi> 21:1. <hi>Ioh.</hi> 8:20. Theſe things ſpoke <hi>Ieſus</hi> in the treaſurie. What this treaſurie was ye will read it ex<g ref="char:EOLhyphen"/>plained by <hi>Shindler</hi> in his <hi>Lexicon</hi> in the word <hi>Liſhcah:</hi> and by <hi>Caſpar Waſerus</hi> who hes written learnedly on that ſubject <hi>de pecuniarum repoſitoriis.</hi> Amongſt Politicians the queſtion is not of the Lawfulneſs, but of the expediency of Princes treaſures. Some court-flatterers, with the fox in the fable, intending to cheat the crow of his cheefe, they will tell the Prince that his glory ſtands rather in his bounty, then his baggs; and will confirm it by the examples of <hi>Alexander</hi> and <hi>Caeſar,</hi> who by their generous and oblidging liberality did atchive great matters, that <hi>Sardanapalus</hi> left ten millions to them that murdered him, <hi>Nero</hi> gave above 12 millions to them that flattered him, which gifts <hi>Galba</hi> afterward did revocke. But they conſider not, that theſe great and warlyk Princes as <hi>Alexander</hi> and <hi>Caeſar</hi> were liberal, rather out of the ſpoils of their enemies then their own treaſuries. But it is certain that a Prince that is not this way provident, ſhall never be able to defend his prerogative, and main<g ref="char:EOLhyphen"/>tain his right, but fall under contempt and danger, the effect of Poverty; as by many pregnant inſtances might be proven. See a treatiſe, intituled <hi>Englands</hi> trea<g ref="char:EOLhyphen"/>ſure by forraign Trade, by <hi>Thomas Mun, Londoner.</hi>
+                  </p>
+               </div>
+               <div type="section">
+                  <head>Appendix <hi>2.</hi> Concerning a peculiar Prerogative.</head>
+                  <p>THere is a peculiar Prerogative mercifully and miraculouſly granted by God, unto ſome Princes, as to the Kings of <hi>Brittain,</hi> and ſome ſay the <hi>French</hi> King too, to heale that diſeaſe <hi>Scrofula</hi> commonly called the <hi>Kings evil.</hi> So <hi>Plutarch</hi> in the life of <hi>Pyrrhus</hi> affirmes, that he cured all theſe that were diſeaſed of the <hi>Spleen,</hi> with a touch of his foot only. And <hi>Swetonius</hi> in <hi>Veſpaſian Cap.</hi> 7. makes mention, that a blind man, and a crooked at leaſt <hi>debili crure</hi> (as he ſpeakes) were both reſtored by the Emperour to intire health; the one, by ſpitting in his Eye; the other, by a touch of his Heel. (So divine a prerogative hes but the touche of the worſt part of a Prince.) Which made not only a confirmation but an acceſſion both to his Ma<g ref="char:EOLhyphen"/>jeſty and authority. And that Princes by vertue of their Office, are indued from Heaven with a Sagacity more then ordinary (as in King <hi>Iames</hi>'s finding out the pow<g ref="char:EOLhyphen"/>eder plot) is conſented to, by all interpreters, to be <hi>Solomons</hi> meaning in <hi>Prov.</hi> 16:10. a divine ſentence, ſome reads it, <hi>Propheſie</hi> or <hi>divination.</hi> See <hi>Petrus Mo<g ref="char:EOLhyphen"/>linaeus decus illud Theologorum</hi> as <hi>Spanhemius</hi> calls him, in his 1 Book <hi>de praecogni<g ref="char:EOLhyphen"/>tione
+<pb n="28" facs="tcp:175009:21"/>
+futurorum Cap.</hi> 20. Where he not only brings in the inſtance of <hi>Solomon</hi> deci<g ref="char:EOLhyphen"/>ding betwixt the two whoors, but of one <hi>Ariopharnes</hi> King of the <hi>Thracians,</hi> who when the King of the <hi>Cymmerians</hi> was dead, and three contending for the Succeſ<g ref="char:EOLhyphen"/>ſion, all pretending to be Sons to the defunct, (whereas it was certain he had left only one Son) being elected Arbiter of the contention, commanded the body of the dead King to be hanged on a Tree, and appointed the three to ſhoot with Arrows, and who came neareſt to his Heart ſhould obtain the Kingdom; the firſt ſhot through the Shoulder, the next through the Arm, the thrid abhorring ſo unnatural an experiment, was content rather to loſe the Kingdom then to mangle the Corps of his Father: And to him he adjudged the Crown; the Story is in <hi>Diodorus Siculus.</hi>
+                  </p>
+                  <p>By <hi>Ezekia, David, Solomon,</hi> all which ye will ſee cited and cleared, from their particular places of Scripture, by <hi>Seth Ward</hi> Lord Biſhop of <hi>Sarum</hi> his Sermon before the King, againſt reſiſtance of Lawfull powers, the firſt of his ſix Sermons Printed <hi>Anno</hi> 1672.</p>
+               </div>
+            </div>
+            <div n="6" type="chapter">
+               <head>
+                  <hi>CHAP. VI.</hi> Concerning <hi>Melchiſedeck</hi> who he was.</head>
+               <p>GReat hes been the toil of learned Men in all ages both Jews and Gentiles, to looſe this knot, and ſome after all their labour, have concluded the myſtery not only profound, but incomprehenſible, alleadging, where the great Apoſtle makes difficulty the preface, it is fit for them to make diſpair the concluſion. <hi>Heb.</hi> 5:11. <hi>Geſnerus</hi> in his Commentaries on <hi>Gen.</hi> 14 <hi>queſt.</hi> 3. <hi>pag.</hi> 307. tells us of one <hi>Copres</hi> an <hi>Abbot</hi> in <hi>Scythia,</hi> who obſerving his Diſciples to contend much about this ſame controverſie, pronunced a woe on himſelf, for ſearching ſo much in it. Saint <hi>Ierom.</hi> 3. <hi>Tom. Epiſt.</hi> 136. ſpeaking of it, ſayes, <hi>Si vas electionis ſtupet ad my<g ref="char:EOLhyphen"/>ſterium, &amp; dum diſputat ineffabile confitetur, quanto magis nos vermiculi &amp; culi<g ref="char:EOLhyphen"/>ces, ſolam debemus ſcientiam inſcitiae confiteri.</hi> Mr. <hi>Bailly</hi> our Countrey-man, in the firſt Book of his Chronologie. <hi>pag.</hi> 18. <hi>Quis mortalium hic fuerit, fruſtraneus eſt curioſiſſimorum labor inquirere;</hi> and ends his diſcourſe of him, <hi>Neceſſe eſt deſinant homines in lucem velle protrahere, quod Deus decrevit in tenebris occultandum. Rai<g ref="char:EOLhyphen"/>nolds</hi> on <hi>Pſal.</hi> 110. <hi>pag.</hi> 462. I cannot but wonder that men ſhould toil themſelves in the dark to find out that, of which they have not the leaſt ground of ſolide con<g ref="char:EOLhyphen"/>jecture, ſpeaking of <hi>Melchiſedeck.</hi> But yet with all humility following the conduct of the Scriptures by the threed of ſolide reaſon, we ſhall crave liberty to propone other mens Sentences, and to interpoſe our own. There have been then 7 ſeveral opinions, ancient and modern concerning <hi>Melchiſedek.</hi> 1. Some have thought that, that whole buſineſs concerning him was a myſtery known to God only, and ſhould never be revealed to man. 2. Some, that he was ſome power and vertue of God, greater then Chriſt the Son of God. 3. Some, that he was an Angel. 4. That he was the Son of God; who in a preludie to his future humanity appeared to the Sons of Men. 5. Some, that he was the Holy Ghoſt. 6. Some, that he was <hi>Shem</hi> the Son of <hi>Noah.</hi> But the opinion I ſhall fix upon, is different from all theſe.</p>
+               <p>The firſt is the opinion of <hi>Prudentius,</hi> whom <hi>Gennadius</hi> in his Catalogue <hi>illuſtrium
+<pb n="37" facs="tcp:175009:21"/>
+virorum Cap.</hi> 13. calls <hi>Poeta Palatinus, ſed Chriſtianus ſaeculari literatura inſignis</hi> His words are in his preface to his <hi>Pſychomach; Dei Sacerdos, Rex &amp; idem praepo<g ref="char:EOLhyphen"/>tens, origo cujus fonte inenarrabili, ſecreta, nullum prodit Authorem ſui,</hi> Melchiſe<g ref="char:EOLhyphen"/>deck <hi>qua ſtirpe, queis majoribus, ignotus, uni cognitus tantum Deo.</hi> Of this opinion are many other modern Authors, ſee <hi>Ravanel</hi> in his <hi>Bibliotheca in voce</hi> Melchi<g ref="char:EOLhyphen"/>ſedeck.</p>
+               <p>To which I anſwer, I darr not be ſo impudent to obtrude into the World any ſcrible of mine with that vain glorious and boaſting preface, <hi>En reſerata orbi magni ſecreta tonantis:</hi> as <hi>Scaliger</hi> obſerveth of a <hi>German</hi> in his time. For I muſt confeſſe with the great Apoſtle, that what concerns <hi>Melchiſedeck</hi> is hard to be uttered, that is, is both profound and myſterious, <hi>Heb.</hi> 5:11. Yet this was not the obſcurity ſo much upon the matter, as in the dulneſs and incapacity of the Hearers to receive ſo excellent doctrine, otherwiſe he had ſuperſeded all labour of any further explication; and the ſeveral ſentiments of learned men in all ages are enough to refute this faint and floating conjecture.</p>
+               <p>The 2. That he was ſome great power of God greater then Chriſt, was the pecu<g ref="char:EOLhyphen"/>liar opinion of theſe <hi>Heretickes</hi> called by <hi>Epiphanius</hi> in his 2 Book <hi>adverſus Hereſes, Hereſ.</hi> 55. Melchiſedeciani. <hi>Megalen ten dunamin phaskousi, alla kai Meizoteron tou Christou. Theodoret. de maleloquentia haeretica Lib.</hi> 2. calls them <hi>Griveous Heretic<g ref="char:EOLhyphen"/>kes.</hi> So ſaid <hi>Auguſtine lib. de Hereſibus ad quod vult Deum Cap.</hi> 34. The ground of this opinion was, becauſe its ſaid of Chriſt, he was to be after the order of <hi>Melchiſe<g ref="char:EOLhyphen"/>deck:</hi> Therefore ſay they, he was inferior to him in dignity. This <hi>Epiphanius</hi> there refutes, ſhewing a Servant is not equal to his Maſter; Chriſt was God and <hi>Melchiſe<g ref="char:EOLhyphen"/>deck</hi> but a Man. Doctor <hi>Gouge</hi> in his Lexicon on the Hebrews ſhews, that their own argument refutes themſelves, for Chriſt being an High-prieſt after the order of <hi>Melchiſedeck: Melchiſedeck</hi> was a Type of Chriſt, and Chriſt the Truth of that Type, but the Truth is alwayes greater then the Type, and by that expreſſion (as ſhall be manifeſted) <hi>Melchiſedeck</hi> is ſo farr from having any prerogative to, that he hes not ſo much as an equality with Chriſt.</p>
+               <p>The 3. That he was an Angel. <hi>A. Sixtus Senenſis</hi> in his <hi>Bibliotheca Sancta lib.</hi> 5. <hi>Annot.</hi> 90. hath obſerved out of Saint <hi>Ierom.</hi> in his Epiſtle to <hi>Euagrius.</hi> That <hi>Orige<g ref="char:EOLhyphen"/>ne</hi> was the firſt Author of this opinion, and ſayes that <hi>Dydimus</hi> his Scholar was of the ſame mind, and in his <hi>Annot.</hi> 91. he tells us that Saint <hi>Auguſtine</hi> in his Book of the Queſtions on the Old and New Teſtament <hi>queſt.</hi> 109. endeavours to prove that <hi>Melchiſedeck</hi> was an Angel, or the Holy Ghoſt. But <hi>Alphonſus à Caſtro</hi> in his 10 Book againſt <hi>Hereſies</hi> proves that, that Book cannot belong to Saint <hi>Auguſtine:</hi> For in his Book of <hi>Hereſies</hi> before cited he condemned it for <hi>Hereſie Cap.</hi> 34. and no mention made of it in his retractations. But be the opinion whoſe it will, its eaſily refuted, by the deſcription of an High-prieſt, <hi>Heb.</hi> 5:1. That he muſt be a Man. Neither doth this any way accord to the Hiſtory delivered of <hi>Melchiſedeck, Gen.</hi> 14. Neither any where in the whole Scripture is the Prieſt-hood attributed to the Angels. Beſides what a ridiculous prerogative had that been to tell us, an Angell had neither Father nor Mother nor Genealogie. So <hi>Gouge, Slegelius, Tena</hi> and <hi>Molineus de praecog. futurorum Lib.</hi> 4. <hi>Cap.</hi> 11.</p>
+               <p>The 4. opinion is, That he was the Son of God. And this <hi>Epiphanius</hi> tells us was</p>
+               <gap reason="missing" extent="1 page">
+                  <desc>〈1 page missing〉</desc>
+               </gap>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
